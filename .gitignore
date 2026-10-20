@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Raw ReceiptBench data (third-party, 235 MB); data/ holds our derived files
+dataset/
+
+# Python
+__pycache__/
+
+# Model weights and trainer checkpoints (large); logs and settings in runs/ stay tracked
+runs/**/adapter/
+runs/**/checkpoint-*/
+runs/oom_check/
+*.safetensors
+
+# Pod logs and scratch
+*.log
+_pod_tmp.py

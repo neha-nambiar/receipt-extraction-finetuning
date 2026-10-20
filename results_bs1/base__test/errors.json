@@ -1,0 +1,2602 @@
+{
+ "examples": [
+  {
+   "base": "1_PurchaseTicket_1091",
+   "n_wrong": 12,
+   "raw_text": "{\n  \"std_start_time\": \"2025-05-01\",\n  \"orig_start_time\": \"05/01/2016\",\n  \"std_invoice_time\": \"2025-05-01\",\n  \"orig_invoice_time\": \"05/01/2016\",\n  \"place\": \"Perak\",\n  \"std_curr\": \"MYR\",\n  \"orig_curr\": [\n    \"RM\",\n    \"Perak\"\n  ],\n  \"std_total\": \"63.20\",\n  \"orig_total\": \"63.20\",\n  \"seller_name\": [\n    \"TAI CHONG SEAFOOD SDN BHD\"\n  ],\n  \"seller_address\": [\n    \"Perak\"\n  ],\n  \"invoice_number\": \"C500004071\",\n  \"tax_number\": \"00132339860\",\n  \"detail\": [\n    {\n      \"content\": \"SR STEAMED EGGS\",\n      \"amount\": \"10.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SR FISH\",\n      \"amount\": \"24.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SR VEGETABLES\",\n      \"amount\": \"15.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SR RICE\",\n      \"amount\": \"1.20\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SR CHINESE TEA\",\n      \"amount\": \"3.00\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2025-05-01",
+    "orig_start_time": "05/01/2016",
+    "std_invoice_time": "2025-05-01",
+    "orig_invoice_time": "05/01/2016",
+    "place": "Perak",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "RM",
+     "Perak"
+    ],
+    "std_total": "63.20",
+    "orig_total": "63.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "Perak"
+    ],
+    "invoice_number": "C500004071",
+    "tax_number": "00132339860",
+    "detail": [
+     {
+      "content": "SR STEAMED EGGS",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR RICE",
+      "amount": "1.20",
+      "ifTax": false
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-03-15",
+    "orig_start_time": " 03/15/2016",
+    "std_invoice_time": "2016-03-15",
+    "orig_invoice_time": "03/15/2016",
+    "place": "Malaysia-Perak",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Perak"
+    ],
+    "std_total": "53.20",
+    "orig_total": "53.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "Malaysia-Perak"
+    ],
+    "invoice_number": "CS00004071",
+    "tax_number": "001323335680",
+    "detail": [
+     {
+      "content": "SR STEAMED EGG",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR RICE",
+      "amount": "1.20",
+      "ifTax": false
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge",
+      "amount": "0.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1172",
+   "n_wrong": 12,
+   "raw_text": "{\n  \"std_start_time\": \"2008-02-06\",\n  \"orig_start_time\": \"02/06/11\",\n  \"std_invoice_time\": \"2008-02-06\",\n  \"orig_invoice_time\": \"02/06/11\",\n  \"place\": \"Menominee\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Menominee\"],\n  \"std_total\": \"141.78\",\n  \"orig_total\": \"141.78\",\n  \"seller_name\": [\n    \"Angelis County Market\"\n  ],\n  \"seller_address\": [\n    \"Menominee\"\n  ],\n  \"invoice_number\": \"Trx:327\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"•DEBT FOOD STAMPS TENDER\",\n      \"amount\": \"141.78\",\n",
+   "pred": {
+    "content": "•DEBT FOOD STAMPS TENDER",
+    "amount": "141.78",
+    "ifTax": false
+   },
+   "target": {
+    "std_start_time": "2011-02-08",
+    "orig_start_time": "02/08/11",
+    "std_invoice_time": "2011-02-08",
+    "orig_invoice_time": "02/08/11",
+    "place": "USA-Menominee",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Menominee"
+    ],
+    "std_total": "141.78",
+    "orig_total": "141.78",
+    "seller_name": [
+     "Angeli's County Market"
+    ],
+    "seller_address": [
+     "USA-Menominee"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Diet Mt Dew 24 Pack",
+      "amount": "33.95",
+      "ifTax": true
+     },
+     {
+      "content": "2.40 Deposit",
+      "amount": "12.00",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "8.99",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "8.99",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "8.99",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "17.98",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "17.98",
+      "ifTax": true
+     },
+     {
+      "content": "Cold Water Lobster T",
+      "amount": "8.99",
+      "ifTax": true
+     },
+     {
+      "content": "Porterhouse Steak",
+      "amount": "11.64",
+      "ifTax": true
+     },
+     {
+      "content": "Porterhouse Steak",
+      "amount": "12.27",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "place": "Missing",
+    "std_curr": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Missing",
+    "orig_total": "Missing",
+    "seller_name": "Missing",
+    "seller_address": "Missing",
+    "detail": "Missing"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_752",
+   "n_wrong": 12,
+   "raw_text": "{\n  \"std_start_time\": \"2013-04-04\",\n  \"orig_start_time\": \"04/13/2017\",\n  \"std_invoice_time\": \"2013-04-04\",\n  \"orig_invoice_time\": \"04/13/2017\",\n  \"place\": \"WA\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"WA\"],\n  \"std_total\": \"110.81\",\n  \"orig_total\": \"110.81\",\n  \"seller_name\": [\"Lynnwood #1190\"],\n  \"seller_address\": [\"WA\"],\n  \"invoice_number\": \"1190\",\n  \"tax_number\": \"961990\",\n  \"detail\": [\n    {\n      \"content\": \"F 1099906 83220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "pred": null,
+   "target": {
+    "std_start_time": "2017-04-13",
+    "orig_start_time": "04/13/2017",
+    "std_invoice_time": "2017-04-13",
+    "orig_invoice_time": "04/13/2017",
+    "place": "USA-Lynnwood",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Lynnwood"
+    ],
+    "std_total": "110.81",
+    "orig_total": "110.81",
+    "seller_name": [],
+    "seller_address": [
+     "USA-Lynnwood"
+    ],
+    "invoice_number": "710300010937",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "DEPEND MEN S",
+      "amount": "42.99",
+      "ifTax": false
+     },
+     {
+      "content": "CPW / 099426",
+      "amount": "-8.50",
+      "ifTax": false
+     },
+     {
+      "content": "M/TTORN CHIP",
+      "amount": "5.99",
+      "ifTax": false
+     },
+     {
+      "content": "CPW/PHIPS",
+      "amount": "-2.00",
+      "ifTax": false
+     },
+     {
+      "content": "WINDO CURT",
+      "amount": "21.99",
+      "ifTax": false
+     },
+     {
+      "content": "NW FRNT 150",
+      "amount": "19.49",
+      "ifTax": false
+     },
+     {
+      "content": "STONSEALING",
+      "amount": "19.99",
+      "ifTax": false
+     },
+     {
+      "content": "A 10.40% TAX",
+      "amount": "10.86",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "place": "Missing",
+    "std_curr": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Missing",
+    "orig_total": "Missing",
+    "seller_address": "Missing",
+    "invoice_number": "Missing",
+    "detail": "Missing"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_757",
+   "n_wrong": 12,
+   "raw_text": "{\n  \"std_start_time\": \"2016-02-12\",\n  \"orig_start_time\": \"02/12/2016\",\n  \"std_invoice_time\": \"2016-02-12\",\n  \"orig_invoice_time\": \"02/12/2016\",\n  \"place\": \"Snake\",\n  \"std_curr\": \"GBP\",\n  \"orig_curr\": [\n    \"£\",\n    \"Snake\"\n  ],\n  \"std_total\": \"16.55\",\n  \"orig_total\": \"£5.55\",\n  \"seller_name\": [\n    \"Morrisons Supermarkets\"\n  ],\n  \"seller_address\": [\n    \"Snake\"\n  ],\n  \"invoice_number\": \"0151 4056406\",\n  \"tax_number\": \"0151 4056406\",\n  \"detail\": [\n    {\n      \"content\": \"1 Create Own Breakfast\",\n      \"amount\": \"£0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"3 --- BACON\",\n      \"amount\": \"£2.10\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 --- MUSHROOMS\",\n      \"amount\": \"£0.60\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 --- FRIED EGG\",\n      \"amount\": \"£0.60\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Unit Toast 2 Slices\",\n      \"amount\": \"£0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Large Fizzy\",\n      \"amount\": \"£1.45\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"BALANCE DUE\",\n      \"amount\": \"£5.55\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Cash\",\n      \"amount\": \"£7.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"CHANGE\",\n      \"amount\": \"£1.45\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2016-02-12",
+    "orig_start_time": "02/12/2016",
+    "std_invoice_time": "2016-02-12",
+    "orig_invoice_time": "02/12/2016",
+    "place": "Snake",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "£",
+     "Snake"
+    ],
+    "std_total": "16.55",
+    "orig_total": "£5.55",
+    "seller_name": [
+     "Morrisons Supermarkets"
+    ],
+    "seller_address": [
+     "Snake"
+    ],
+    "invoice_number": "0151 4056406",
+    "tax_number": "0151 4056406",
+    "detail": [
+     {
+      "content": "1 Create Own Breakfast",
+      "amount": "£0.00",
+      "ifTax": false
+     },
+     {
+      "content": "3 --- BACON",
+      "amount": "£2.10",
+      "ifTax": false
+     },
+     {
+      "content": "1 --- MUSHROOMS",
+      "amount": "£0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 --- FRIED EGG",
+      "amount": "£0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 Unit Toast 2 Slices",
+      "amount": "£0.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Large Fizzy",
+      "amount": "£1.45",
+      "ifTax": false
+     },
+     {
+      "content": "BALANCE DUE",
+      "amount": "£5.55",
+      "ifTax": false
+     },
+     {
+      "content": "Cash",
+      "amount": "£7.00",
+      "ifTax": false
+     },
+     {
+      "content": "CHANGE",
+      "amount": "£1.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-12-05",
+    "orig_start_time": "05/12/2016",
+    "std_invoice_time": "2016-12-05",
+    "orig_invoice_time": "05/12/2016",
+    "place": "United Kingdom-Speke",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "Speke",
+     "£"
+    ],
+    "std_total": "5.55",
+    "orig_total": "5.55",
+    "seller_name": [
+     "Morrisons"
+    ],
+    "seller_address": [
+     "United Kingdom-Speke"
+    ],
+    "invoice_number": "",
+    "tax_number": "343475355",
+    "detail": [
+     {
+      "content": "Create Own Breakfast",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "3 --> BACON",
+      "amount": "2.10",
+      "ifTax": false
+     },
+     {
+      "content": "1 --> MUSHROOMS",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 --> FRIED EGG",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 Unt Toast 2 Slices",
+      "amount": "0.80",
+      "ifTax": false
+     },
+     {
+      "content": "1 Large Fizzy",
+      "amount": "1.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1240",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2017-07-17\",\n  \"orig_start_time\": \"DATED/17/17  11:33AM\",\n  \"std_invoice_time\": \"2017-07-17\",\n  \"orig_invoice_time\": \"DATED/17/17  11:33AM\",\n  \"place\": \"Shell\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"New York\"],\n  \"std_total\": \"8.68\",\n  \"orig_total\": \"$ 8.68\",\n  \"seller_name\": [\"Shell\"],\n  \"seller_address\": [\"United States\"],\n  \"invoice_number\": \"117004\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"PUMP PRODUCT\",\n      \"amount\": \"8.18\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"BALLONS\",\n      \"amount\": \"0.50\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2017-07-17",
+    "orig_start_time": "DATED/17/17  11:33AM",
+    "std_invoice_time": "2017-07-17",
+    "orig_invoice_time": "DATED/17/17  11:33AM",
+    "place": "Shell",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "New York"
+    ],
+    "std_total": "8.68",
+    "orig_total": "$ 8.68",
+    "seller_name": [
+     "Shell"
+    ],
+    "seller_address": [
+     "United States"
+    ],
+    "invoice_number": "117004",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PUMP PRODUCT",
+      "amount": "8.18",
+      "ifTax": false
+     },
+     {
+      "content": "BALLONS",
+      "amount": "0.50",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2019-01-17",
+    "orig_start_time": "01/17/19",
+    "std_invoice_time": "2019-01-17",
+    "orig_invoice_time": "01/17/19",
+    "place": "USA-Salisbury",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Salisbury"
+    ],
+    "std_total": "68.02",
+    "orig_total": "68.02",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Salisbury"
+    ],
+    "invoice_number": "522872",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "20.819 GALLONS PUMP PRODUCT",
+      "amount": "68.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1341",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2023-10-14\",\n  \"orig_start_time\": \"10/14/16\",\n  \"std_invoice_time\": \"2023-10-14\",\n  \"orig_invoice_time\": \"10/14/16\",\n  \"place\": \"\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"New York\"],\n  \"std_total\": \"66.66\",\n  \"orig_total\": \"66.66\",\n  \"seller_name\": [\n    \"CHRIS BUCKNER\"\n  ],\n  \"seller_address\": [\n    \"New York\"\n  ],\n  \"invoice_number\": \"0200205\",\n  \"tax_number\": \"0200205\",\n  \"detail\": [\n    {\n      \"content\": \"BANANAS\",\n      \"amount\": \"3.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"WHOLE MILK\",\n      \"amount\": \"1.68\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"DV SPSK\",\n      \"amount\": \"1.33\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SUBTOTAL\",\n      \"amount\": \"61.52\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"TAX 1\",\n      \"amount\": \"4.04\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"TOTAL\",\n      \"amount\": \"65.56\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"CHANGE DUE\",\n      \"amount\": \"9.00\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2023-10-14",
+    "orig_start_time": "10/14/16",
+    "std_invoice_time": "2023-10-14",
+    "orig_invoice_time": "10/14/16",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "New York"
+    ],
+    "std_total": "66.66",
+    "orig_total": "66.66",
+    "seller_name": [
+     "CHRIS BUCKNER"
+    ],
+    "seller_address": [
+     "New York"
+    ],
+    "invoice_number": "0200205",
+    "tax_number": "0200205",
+    "detail": [
+     {
+      "content": "BANANAS",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHOLE MILK",
+      "amount": "1.68",
+      "ifTax": false
+     },
+     {
+      "content": "DV SPSK",
+      "amount": "1.33",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "61.52",
+      "ifTax": false
+     },
+     {
+      "content": "TAX 1",
+      "amount": "4.04",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL",
+      "amount": "65.56",
+      "ifTax": false
+     },
+     {
+      "content": "CHANGE DUE",
+      "amount": "9.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-10-14",
+    "orig_start_time": "10/14/16",
+    "std_invoice_time": "2016-10-14",
+    "orig_invoice_time": "10/14/16",
+    "place": "USA-Columbus ",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Columbus "
+    ],
+    "std_total": "65.56",
+    "orig_total": "65.56",
+    "seller_name": [],
+    "seller_address": [
+     "USA-Columbus "
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "BANANAS",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "3.06 LB @ 1.1b /0.62",
+      "amount": "1.59",
+      "ifTax": false
+     },
+     {
+      "content": "INFANT WATER",
+      "amount": "1.00",
+      "ifTax": false
+     },
+     {
+      "content": "FW KETTLE",
+      "amount": "29.92",
+      "ifTax": false
+     },
+     {
+      "content": "WHOLE MILK",
+      "amount": "1.68",
+      "ifTax": false
+     },
+     {
+      "content": "GV 3PK DR",
+      "amount": "3.33",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "4.04",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "place": "Missing",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Hallucination",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1426",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2017-10-16\",\n  \"orig_start_time\": \"16-10-2017\",\n  \"std_invoice_time\": \"2017-10-16\",\n  \"orig_invoice_time\": \"16-10-2017\",\n  \"place\": \"Malaysia\",\n  \"std_curr\": \"MYR\",\n  \"orig_curr\": [\n    \"RM\",\n    \"Kuala Lumpur\"\n  ],\n  \"std_total\": \"33.90\",\n  \"orig_total\": \"33.90\",\n  \"seller_name\": [\n    \"VISHNAYA HANAMURU MID VALLEY\"\n  ],\n  \"seller_address\": [\n    \"Malaysia\"\n  ],\n  \"invoice_number\": \"DINE-4\",\n  \"tax_number\": \"02108627328\",\n  \"detail\": [\n    {\n      \"content\": \"Green Tea\",\n      \"amount\": \"1.50\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Citraan Beef Tea (R)\",\n      \"amount\": \"13.80\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Miso & Green Tea\",\n      \"amount\": \"3.80\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Citraan Spicy Chic Tandura Bowl (R)\",\n      \"amount\": \"14.80\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Total (Excluding GST):\",\n      \"amount\": \"31.90\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"GST Payable:\",\n      \"amount\": \"1.97\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Total (Inclusive of GST):\",\n      \"amount\": \"33.90\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2017-10-16",
+    "orig_start_time": "16-10-2017",
+    "std_invoice_time": "2017-10-16",
+    "orig_invoice_time": "16-10-2017",
+    "place": "Malaysia",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "RM",
+     "Kuala Lumpur"
+    ],
+    "std_total": "33.90",
+    "orig_total": "33.90",
+    "seller_name": [
+     "VISHNAYA HANAMURU MID VALLEY"
+    ],
+    "seller_address": [
+     "Malaysia"
+    ],
+    "invoice_number": "DINE-4",
+    "tax_number": "02108627328",
+    "detail": [
+     {
+      "content": "Green Tea",
+      "amount": "1.50",
+      "ifTax": false
+     },
+     {
+      "content": "Citraan Beef Tea (R)",
+      "amount": "13.80",
+      "ifTax": false
+     },
+     {
+      "content": "Miso & Green Tea",
+      "amount": "3.80",
+      "ifTax": false
+     },
+     {
+      "content": "Citraan Spicy Chic Tandura Bowl (R)",
+      "amount": "14.80",
+      "ifTax": false
+     },
+     {
+      "content": "Total (Excluding GST):",
+      "amount": "31.90",
+      "ifTax": false
+     },
+     {
+      "content": "GST Payable:",
+      "amount": "1.97",
+      "ifTax": true
+     },
+     {
+      "content": "Total (Inclusive of GST):",
+      "amount": "33.90",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-10-16",
+    "orig_start_time": "16-10-2015",
+    "std_invoice_time": "2015-10-16",
+    "orig_invoice_time": "16-10-2015",
+    "place": "Malaysia-Kuala Lumpur",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Kuala Lumpur"
+    ],
+    "std_total": "33.90",
+    "orig_total": "33.90",
+    "seller_name": [
+     "YOSHINOYA HANAMARU MID VALLEY"
+    ],
+    "seller_address": [
+     "Malaysia-Kuala Lumpur"
+    ],
+    "invoice_number": "686340",
+    "tax_number": "002105827328",
+    "detail": [
+     {
+      "content": "Green Tea",
+      "amount": "1.50",
+      "ifTax": true
+     },
+     {
+      "content": "Cintana Beef Bowl (R)",
+      "amount": "13.80",
+      "ifTax": true
+     },
+     {
+      "content": "Miso + Green Tea",
+      "amount": "3.80",
+      "ifTax": true
+     },
+     {
+      "content": "Cintana Spicy Chicken Tempura Bowl (R)",
+      "amount": "14.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1553",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"\",\n  \"place\": \"Seattle-WA\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Seattle, WA 98133\"],\n  \"std_total\": \"20.00\",\n  \"orig_total\": \"20.00\",\n  \"seller_name\": [\"Aurora Village\"],\n  \"seller_address\": [\"Seattle-WA\"],\n  \"invoice_number\": \"#106\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"XO Member 111840425664\",\n      \"amount\": \"18.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"862760 PUCK LIGHTS\",\n      \"amount\": \"18.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"0000158999 CPNV 862760\",\n      \"amount\": \"4.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SUBTOTAL\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"TAX\",\n      \"amount\": \"1.80\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"TOTAL\",\n      \"amount\": \"16.79\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"CASH\",\n      \"amount\": \"20.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"CHANGE\",\n      \"amount\": \"3.21\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"A 9.5% TAX\",\n      \"amount\": \"1.80\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"TOTAL TAX\",\n      \"amount\": \"1.80\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"TOTAL NUMBER OF ITEMS SOLD = 1\",\n      \"amount\": \"1\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"COUPONS TENDERED\",\n      \"amount\": \"4.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"OP# : 806 Name: TIMOTHY M\",\n      \"amount\": \"\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "Seattle-WA",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Seattle, WA 98133"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20.00",
+    "seller_name": [
+     "Aurora Village"
+    ],
+    "seller_address": [
+     "Seattle-WA"
+    ],
+    "invoice_number": "#106",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "XO Member 111840425664",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "862760 PUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "0000158999 CPNV 862760",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL",
+      "amount": "16.79",
+      "ifTax": false
+     },
+     {
+      "content": "CASH",
+      "amount": "20.00",
+      "ifTax": false
+     },
+     {
+      "content": "CHANGE",
+      "amount": "3.21",
+      "ifTax": false
+     },
+     {
+      "content": "A 9.5% TAX",
+      "amount": "1.80",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL TAX",
+      "amount": "1.80",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL NUMBER OF ITEMS SOLD = 1",
+      "amount": "1",
+      "ifTax": false
+     },
+     {
+      "content": "COUPONS TENDERED",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "OP# : 806 Name: TIMOTHY M",
+      "amount": "",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-01-31",
+    "orig_start_time": "01/31/2017",
+    "std_invoice_time": "2017-01-31",
+    "orig_invoice_time": "01/31/2017",
+    "place": "USA-Seattle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Seattle"
+    ],
+    "std_total": "16.79",
+    "orig_total": "16.79",
+    "seller_name": [
+     "Aurora Village #106"
+    ],
+    "seller_address": [
+     "USA-Seattle"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "862760 PUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "0000158999 CPN/ 862760",
+      "amount": "-4.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1594",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2023-12-16\",\n  \"orig_start_time\": \"16 DEC 15 18:18 PM\",\n  \"std_invoice_time\": \"2023-12-16\",\n  \"orig_invoice_time\": \"16 DEC 15 18:18 PM\",\n  \"place\": \"Singapore\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Singapore\"],\n  \"std_total\": \"49.45\",\n  \"orig_total\": \"$49.45\",\n  \"seller_name\": [\"Club\"],\n  \"seller_address\": [\"Singapore\"],\n  \"invoice_number\": \"200914857K\",\n  \"tax_number\": \"018971\",\n  \"detail\": [\n    {\n      \"content\": \"1 Tiger Btl\",\n      \"amount\": \"16.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Craggie Range Chardonnay Gls\",\n      \"amount\": \"26.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Subtotal\",\n      \"amount\": \"$42.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"10% Service Charge\",\n      \"amount\": \"$4.20\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Tax\",\n      \"amount\": \"$3.23\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Rounding\",\n      \"amount\": \"$0.02\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2023-12-16",
+    "orig_start_time": "16 DEC 15 18:18 PM",
+    "std_invoice_time": "2023-12-16",
+    "orig_invoice_time": "16 DEC 15 18:18 PM",
+    "place": "Singapore",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Singapore"
+    ],
+    "std_total": "49.45",
+    "orig_total": "$49.45",
+    "seller_name": [
+     "Club"
+    ],
+    "seller_address": [
+     "Singapore"
+    ],
+    "invoice_number": "200914857K",
+    "tax_number": "018971",
+    "detail": [
+     {
+      "content": "1 Tiger Btl",
+      "amount": "16.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Craggie Range Chardonnay Gls",
+      "amount": "26.00",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "$42.00",
+      "ifTax": false
+     },
+     {
+      "content": "10% Service Charge",
+      "amount": "$4.20",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "$3.23",
+      "ifTax": true
+     },
+     {
+      "content": "Rounding",
+      "amount": "$0.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-12-16",
+    "orig_start_time": "16 DEC'15",
+    "std_invoice_time": "2015-12-16",
+    "orig_invoice_time": "16 DEC'15",
+    "place": "Singapore-Singapore city",
+    "std_curr": "SGD",
+    "orig_curr": [
+     "Singapore",
+     "$"
+    ],
+    "std_total": "49.45",
+    "orig_total": "49.45",
+    "seller_name": [],
+    "seller_address": [
+     "Singapore-Singapore city"
+    ],
+    "invoice_number": "",
+    "tax_number": "200914857K",
+    "detail": [
+     {
+      "content": "1 Tiger Btl",
+      "amount": "16.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Craggie Range Chardonnay GIs",
+      "amount": "26.00",
+      "ifTax": false
+     },
+     {
+      "content": "10% Service Charge",
+      "amount": "4.20",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "3.23",
+      "ifTax": true
+     },
+     {
+      "content": "Rounding",
+      "amount": "0.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "std_curr": "Misread",
+    "seller_name": "Hallucination",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_50",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2020-08-19\",\n  \"orig_start_time\": \"20-08-19\",\n  \"std_invoice_time\": \"2020-08-19\",\n  \"orig_invoice_time\": \"20-08-19\",\n  \"place\": \"Italy-Rome\",\n  \"std_curr\": \"EUR\",\n  \"orig_curr\": [\n    \"€\",\n    \"Rome\"\n  ],\n  \"std_total\": \"20.00\",\n  \"orig_total\": \"TOTALE EURO 20,00\",\n  \"seller_name\": [\n    \"PIZZERIA RIVA D'ARNO\"\n  ],\n  \"seller_address\": [\n    \"Italy-Rome\"\n  ],\n  \"invoice_number\": \"D057481772\",\n  \"tax_number\": \"P. IVA 05585630462\",\n  \"detail\": [\n    {\n      \"content\": \"2 x 1.50\",\n      \"amount\": \"3.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SERVIZIO COPERTO\",\n      \"amount\": \"10.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"PIZZA DEL GIORNO\",\n      \"amount\": \"12.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"BIRRA SPINA BIONDA MEDIA\",\n      \"amount\": \"4.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"BIRRA SPINA BIONDA FISC.\",\n      \"amount\": \"5.00\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2020-08-19",
+    "orig_start_time": "20-08-19",
+    "std_invoice_time": "2020-08-19",
+    "orig_invoice_time": "20-08-19",
+    "place": "Italy-Rome",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "€",
+     "Rome"
+    ],
+    "std_total": "20.00",
+    "orig_total": "TOTALE EURO 20,00",
+    "seller_name": [
+     "PIZZERIA RIVA D'ARNO"
+    ],
+    "seller_address": [
+     "Italy-Rome"
+    ],
+    "invoice_number": "D057481772",
+    "tax_number": "P. IVA 05585630462",
+    "detail": [
+     {
+      "content": "2 x 1.50",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "SERVIZIO COPERTO",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "PIZZA DEL GIORNO",
+      "amount": "12.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINA BIONDA MEDIA",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINA BIONDA FISC.",
+      "amount": "5.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2018-06-20",
+    "orig_start_time": "20-06-2018",
+    "std_invoice_time": "2018-06-20",
+    "orig_invoice_time": "20-06-2018",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "EURO"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20,00",
+    "seller_name": [
+     "PIZZERIA RIVA D'ARNO"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "05836630482",
+    "detail": [
+     {
+      "content": "SERVICE/PIATTI",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "PIZZA SPINACI GIORNO",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINACI BIONDA MEDIA",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINACI BIONDA PICCOLA",
+      "amount": "3.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Hallucination",
+    "std_curr": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Hallucination",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_736",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"01/10/2016\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"01/10/2016\",\n  \"place\": \"Provo-UT\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Provo, UT\"],\n  \"std_total\": \"30.00\",\n  \"orig_total\": \"$30.00\",\n  \"seller_name\": [\"Rite Aid Pharmacy\"],\n  \"seller_address\": [\"Provo-UT\"],\n  \"invoice_number\": \"436564\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"1 CON INST NT CBL TIN SHAK 13.99 T\",\n      \"amount\": \"13.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 SKINTIMATE SHV STRANGT 72 3.29 T\",\n      \"amount\": \"3.29\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 SKINTIMATE SHV STRAWTG 72 3.29-T\",\n      \"amount\": \"3.29\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 $5 OFF $25 NON RX PURCHASE\",\n      \"amount\": \"5.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 $10 OFF ANY PURCHASE\",\n      \"amount\": \"10.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 RETAIL COUPON\",\n      \"amount\": \"1.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 MERCHANDISE COUPON\",\n      \"amount\": \"1.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 MANUF COUPON\",\n      \"amount\": \"2.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 MANUF COUPON\",\n      \"amount\": \"2.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 8 IN 1 YEARS 10ML GEL 7.99 T H\",\n      \"amount\": \"7.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"7 ITEMS\",\n      \"amount\": \"18.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Subtotal\",\n      \"amount\": \"8.57\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Tax\",\n      \"amount\": \"7.80\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Total\",\n      \"amount\": \"16.37\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Balance remaining: $0.00\",\n      \"amount\": \"0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"CASH PAYMENT: 30.00\",\n      \"amount\": \"30.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Cash Change: 13.63\",\n      \"amount\": \"13.63\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"TOTAL COUPON SAVINGS: $18.00\",\n      \"amount\": \"18.00\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "01/10/2016",
+    "std_invoice_time": "",
+    "orig_invoice_time": "01/10/2016",
+    "place": "Provo-UT",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Provo, UT"
+    ],
+    "std_total": "30.00",
+    "orig_total": "$30.00",
+    "seller_name": [
+     "Rite Aid Pharmacy"
+    ],
+    "seller_address": [
+     "Provo-UT"
+    ],
+    "invoice_number": "436564",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "1 CON INST NT CBL TIN SHAK 13.99 T",
+      "amount": "13.99",
+      "ifTax": false
+     },
+     {
+      "content": "1 SKINTIMATE SHV STRANGT 72 3.29 T",
+      "amount": "3.29",
+      "ifTax": false
+     },
+     {
+      "content": "1 SKINTIMATE SHV STRAWTG 72 3.29-T",
+      "amount": "3.29",
+      "ifTax": false
+     },
+     {
+      "content": "1 $5 OFF $25 NON RX PURCHASE",
+      "amount": "5.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 $10 OFF ANY PURCHASE",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 RETAIL COUPON",
+      "amount": "1.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 MERCHANDISE COUPON",
+      "amount": "1.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 MANUF COUPON",
+      "amount": "2.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 MANUF COUPON",
+      "amount": "2.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 8 IN 1 YEARS 10ML GEL 7.99 T H",
+      "amount": "7.99",
+      "ifTax": false
+     },
+     {
+      "content": "7 ITEMS",
+      "amount": "18.00",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "8.57",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "7.80",
+      "ifTax": true
+     },
+     {
+      "content": "Total",
+      "amount": "16.37",
+      "ifTax": false
+     },
+     {
+      "content": "Balance remaining: $0.00",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "CASH PAYMENT: 30.00",
+      "amount": "30.00",
+      "ifTax": false
+     },
+     {
+      "content": "Cash Change: 13.63",
+      "amount": "13.63",
+      "ifTax": false
+     },
+     {
+      "content": "TOTAL COUPON SAVINGS: $18.00",
+      "amount": "18.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2010-02-01",
+    "orig_start_time": "2/01/10",
+    "std_invoice_time": "2010-02-01",
+    "orig_invoice_time": "2/01/10",
+    "place": "USA-Provo",
+    "std_curr": "USD",
+    "orig_curr": [
+     "PROVO"
+    ],
+    "std_total": "9.35",
+    "orig_total": "9.35",
+    "seller_name": [
+     "RITE AID PHARMACY"
+    ],
+    "seller_address": [
+     "USA-Provo"
+    ],
+    "invoice_number": "346964",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "CON INST HT CRL IRN 3/4IN",
+      "amount": "13.99",
+      "ifTax": false
+     },
+     {
+      "content": "SKINTIMATE SHV STRAMTG 7Z",
+      "amount": "3.29",
+      "ifTax": false
+     },
+     {
+      "content": "TOTAL ADVNCED WHT PST 5.8Z",
+      "amount": "4.59",
+      "ifTax": false
+     },
+     {
+      "content": "SKINTIMATE SHV STRAWTG 7Z",
+      "amount": "-3.29",
+      "ifTax": false
+     },
+     {
+      "content": "$5 OFF $25 NON RX PURCHAS",
+      "amount": "-5.00",
+      "ifTax": false
+     },
+     {
+      "content": "$10 OFF ANY PURCHASE",
+      "amount": "-10.00",
+      "ifTax": false
+     },
+     {
+      "content": "MERCHANDISE",
+      "amount": "-1.00",
+      "ifTax": false
+     },
+     {
+      "content": "MERCHANDISE",
+      "amount": "-2.00",
+      "ifTax": false
+     },
+     {
+      "content": "BLINK TEARS 10ML GEL",
+      "amount": "7.99",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "0.78",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_864",
+   "n_wrong": 11,
+   "raw_text": "{\n  \"std_start_time\": \"2010-11-13\",\n  \"orig_start_time\": \"NOVEMBER 13, 2010\",\n  \"std_invoice_time\": \"2010-11-13\",\n  \"orig_invoice_time\": \"NOVEMBER 13, 2010\",\n  \"place\": \"New Orleans, LA\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"New Orleans\"],\n  \"std_total\": \"2.25\",\n  \"orig_total\": \"2.25\",\n  \"seller_name\": [\n    \"CVS/pharmacy\"\n  ],\n  \"seller_address\": [\n    \"New Orleans, LA\"\n  ],\n  \"invoice_number\": \"763\",\n  \"tax_number\": \"528-7099\",\n  \"detail\": [\n    {\n      \"content\": \"1 ZAPPS CAJUN C 22\",\n      \"amount\": \"998\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 ZAPPS REGULAR 22\",\n      \"amount\": \"998\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SUBTOTAL\",\n      \"amount\": \"1.98\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"LA 4.5% TAX\",\n      \"amount\": \"09\",\n      \"ifTax\": true\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2010-11-13",
+    "orig_start_time": "NOVEMBER 13, 2010",
+    "std_invoice_time": "2010-11-13",
+    "orig_invoice_time": "NOVEMBER 13, 2010",
+    "place": "New Orleans, LA",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "New Orleans"
+    ],
+    "std_total": "2.25",
+    "orig_total": "2.25",
+    "seller_name": [
+     "CVS/pharmacy"
+    ],
+    "seller_address": [
+     "New Orleans, LA"
+    ],
+    "invoice_number": "763",
+    "tax_number": "528-7099",
+    "detail": [
+     {
+      "content": "1 ZAPPS CAJUN C 22",
+      "amount": "998",
+      "ifTax": false
+     },
+     {
+      "content": "1 ZAPPS REGULAR 22",
+      "amount": "998",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "1.98",
+      "ifTax": false
+     },
+     {
+      "content": "LA 4.5% TAX",
+      "amount": "09",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2011-01-12",
+    "orig_start_time": "01/12/2011",
+    "std_invoice_time": "2011-01-12",
+    "orig_invoice_time": "01/12/2011",
+    "place": "USA-New Orleans",
+    "std_curr": "USD",
+    "orig_curr": [
+     "New Orleans"
+    ],
+    "std_total": "2.07",
+    "orig_total": "2.07",
+    "seller_name": [
+     "CVS/pharmacy"
+    ],
+    "seller_address": [
+     "USA-New Orleans"
+    ],
+    "invoice_number": "4111",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "ZAPPS CAJUN C ZZ",
+      "amount": "0.99",
+      "ifTax": false
+     },
+     {
+      "content": "ZAPPS REGULAR ZZ",
+      "amount": "0.99",
+      "ifTax": false
+     },
+     {
+      "content": "LA 4.5% TAX",
+      "amount": "0.09",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1218",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"2019-04-27\",\n  \"orig_start_time\": \"27 Apr'19 22:48 PM\",\n  \"std_invoice_time\": \"2019-04-27\",\n  \"orig_invoice_time\": \"27 Apr'19 22:48 PM\",\n  \"place\": \"Hong Kong\",\n  \"std_curr\": \"HKD\",\n  \"orig_curr\": [\"HK$\"],\n  \"std_total\": \"1124.20\",\n  \"orig_total\": \"Total Due HK$1,124.20\",\n  \"seller_name\": [\n    \"THE ST. REGIS\",\n    \"The Drawing Room & St. Regis Bar\"\n  ],\n  \"seller_address\": [\n    \"Hong Kong\"\n  ],\n  \"invoice_number\": \"1251912\",\n  \"tax_number\": \"947921016\",\n  \"detail\": [\n    {\n      \"content\": \"1 Chicken\",\n      \"amount\": \"338.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Dover Sole\",\n      \"amount\": \"348.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Sauteed Veg\",\n      \"amount\": \"80.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Willis Avenue\",\n      \"amount\": \"128.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 A Tie On Lenox Ave\",\n      \"amount\": \"128.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Subtotal\",\n      \"amount\": \"1022.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Service Charge 10%\",\n      \"amount\": \"102.20\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2019-04-27",
+    "orig_start_time": "27 Apr'19 22:48 PM",
+    "std_invoice_time": "2019-04-27",
+    "orig_invoice_time": "27 Apr'19 22:48 PM",
+    "place": "Hong Kong",
+    "std_curr": "HKD",
+    "orig_curr": [
+     "HK$"
+    ],
+    "std_total": "1124.20",
+    "orig_total": "Total Due HK$1,124.20",
+    "seller_name": [
+     "THE ST. REGIS",
+     "The Drawing Room & St. Regis Bar"
+    ],
+    "seller_address": [
+     "Hong Kong"
+    ],
+    "invoice_number": "1251912",
+    "tax_number": "947921016",
+    "detail": [
+     {
+      "content": "1 Chicken",
+      "amount": "338.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Dover Sole",
+      "amount": "348.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Sauteed Veg",
+      "amount": "80.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Willis Avenue",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 A Tie On Lenox Ave",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "1022.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge 10%",
+      "amount": "102.20",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2019-04-27",
+    "orig_start_time": "27 Apr'19",
+    "std_invoice_time": "2019-04-27",
+    "orig_invoice_time": "27 Apr'19",
+    "place": "China-Hong Kong",
+    "std_curr": "HKD",
+    "orig_curr": [
+     "HK$",
+     "Hong Kong"
+    ],
+    "std_total": "0.00",
+    "orig_total": "1,124.20",
+    "seller_name": [
+     "The St. Regis Hong Kong"
+    ],
+    "seller_address": [
+     "China-Hong Kong"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Chicken",
+      "amount": "338.00",
+      "ifTax": false
+     },
+     {
+      "content": "Dover Sole",
+      "amount": "348.00",
+      "ifTax": false
+     },
+     {
+      "content": "Sauteed Veg",
+      "amount": "80.00",
+      "ifTax": false
+     },
+     {
+      "content": "Willis Avenue",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "A Tie On Lenox Ave",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge 10%",
+      "amount": "102.20",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Hallucination",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_315",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"\",\n  \"place\": \"United Kingdom-London\",\n  \"std_curr\": \"GBP\",\n  \"orig_curr\": [],\n  \"std_total\": \"91.01\",\n  \"orig_total\": \"91.01\",\n  \"seller_name\": [\n    \"華南行\"\n  ],\n  \"seller_address\": [\n    \"United Kingdom-London\"\n  ],\n  \"invoice_number\": \"20240718-14-140718\",\n  \"tax_number\": \"GB 333392901\",\n  \"detail\": [\n    {\n      \"content\": \"Liu Ma Kee Preserved Bean Curd (Chili) 425G\",\n      \"amount\": \"20.98\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Liu Ma Kee Nam Yu Bean Curd 255g\",\n      \"amount\": \"17.58\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Liu Ma Kee Preserved Bean Curd 425G\",\n      \"amount\": \"52.45\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [],
+    "std_total": "91.01",
+    "orig_total": "91.01",
+    "seller_name": [
+     "華南行"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "20240718-14-140718",
+    "tax_number": "GB 333392901",
+    "detail": [
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd (Chili) 425G",
+      "amount": "20.98",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Nam Yu Bean Curd 255g",
+      "amount": "17.58",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd 425G",
+      "amount": "52.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2024-07-18",
+    "orig_start_time": "20240718",
+    "std_invoice_time": "2024-07-18",
+    "orig_invoice_time": "20240718",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "London"
+    ],
+    "std_total": "91.00",
+    "orig_total": "91.00",
+    "seller_name": [
+     "WaNaHong"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "20240718-14-140718",
+    "tax_number": "333392901",
+    "detail": [
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd (Chili) 425G",
+      "amount": "20.98",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Nam Yu Bean Curd 255g",
+      "amount": "17.58",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd 425G",
+      "amount": "52.45",
+      "ifTax": false
+     },
+     {
+      "content": "VAT Value",
+      "amount": "0.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_412",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"17/02/2018\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"17/02/2018\",\n  \"place\": \"Clermont-Ferrand\",\n  \"std_curr\": \"EUR\",\n  \"orig_curr\": [],\n  \"std_total\": \"170.73\",\n  \"orig_total\": \"170.73\",\n  \"seller_name\": [\n    \"Champagne Land Hotel\"\n  ],\n  \"seller_address\": [\n    \"Clermont-Ferrand\"\n  ],\n  \"invoice_number\": \"1400115001251000576197\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"2 BUFF AGLUTE\",\n      \"amount\": \"138.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 E-BUFFET\",\n      \"amount\": \"39.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 50CL VITTEL VC*\",\n      \"amount\": \"6.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 33CL DOCA VC\",\n      \"amount\": \"6.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"R Magic plus\",\n      \"amount\": \"18.97\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"15.54\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"0.00\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"15.54\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"170.73\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"0.00\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"15.54\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Taux TVA\",\n      \"amount\": \"170.73\",\n      \"ifTax\": true\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "17/02/2018",
+    "std_invoice_time": "",
+    "orig_invoice_time": "17/02/2018",
+    "place": "Clermont-Ferrand",
+    "std_curr": "EUR",
+    "orig_curr": [],
+    "std_total": "170.73",
+    "orig_total": "170.73",
+    "seller_name": [
+     "Champagne Land Hotel"
+    ],
+    "seller_address": [
+     "Clermont-Ferrand"
+    ],
+    "invoice_number": "1400115001251000576197",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 BUFF AGLUTE",
+      "amount": "138.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 E-BUFFET",
+      "amount": "39.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 50CL VITTEL VC*",
+      "amount": "6.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 33CL DOCA VC",
+      "amount": "6.00",
+      "ifTax": false
+     },
+     {
+      "content": "R Magic plus",
+      "amount": "18.97",
+      "ifTax": false
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "15.54",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "15.54",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "170.73",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "15.54",
+      "ifTax": true
+     },
+     {
+      "content": "Taux TVA",
+      "amount": "170.73",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2018-08-17",
+    "orig_start_time": "17/8/2018",
+    "std_invoice_time": "2018-08-17",
+    "orig_invoice_time": "17/8/2018",
+    "place": "France-Marne la Vallée",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "MARNE LA VALLEE"
+    ],
+    "std_total": "170.73",
+    "orig_total": "170.73",
+    "seller_name": [
+     "Disneyland Hotel"
+    ],
+    "seller_address": [
+     "France-Marne la Vallée"
+    ],
+    "invoice_number": "1012141",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 BUFFET ADULTE",
+      "amount": "138.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 E-BUFFET",
+      "amount": "39.00",
+      "ifTax": true
+     },
+     {
+      "content": "50CL VITTEL VC*",
+      "amount": "6.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 33CL COCA VC",
+      "amount": "6.70",
+      "ifTax": true
+     },
+     {
+      "content": "R Magic plus",
+      "amount": "-18.97",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Missing",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_417",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"10:27am\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"8-07-15\",\n  \"place\": \"Gary, IN\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Gary\"],\n  \"std_total\": \"1.00\",\n  \"orig_total\": \"$1\",\n  \"seller_name\": [\"Turtle Wax Wash\"],\n  \"seller_address\": [\"Gary, IN\"],\n  \"invoice_number\": \"N805348\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"ULTIMATE\",\n      \"amount\": \"22.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Mats Option\",\n      \"amount\": \"0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"e\",\n      \"amount\": \"0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Groupon\",\n      \"amount\": \"-22.99\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "10:27am",
+    "std_invoice_time": "",
+    "orig_invoice_time": "8-07-15",
+    "place": "Gary, IN",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Gary"
+    ],
+    "std_total": "1.00",
+    "orig_total": "$1",
+    "seller_name": [
+     "Turtle Wax Wash"
+    ],
+    "seller_address": [
+     "Gary, IN"
+    ],
+    "invoice_number": "N805348",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "ULTIMATE",
+      "amount": "22.99",
+      "ifTax": false
+     },
+     {
+      "content": "Mats Option",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "e",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Groupon",
+      "amount": "-22.99",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-08-07",
+    "orig_start_time": "08-07-15",
+    "std_invoice_time": "2015-08-07",
+    "orig_invoice_time": "08-07-15",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "0.00",
+    "orig_total": "0.00",
+    "seller_name": [
+     "Turtle Wax Wash"
+    ],
+    "seller_address": [],
+    "invoice_number": "4280",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "ULTIMATE",
+      "amount": "22.99",
+      "ifTax": false
+     },
+     {
+      "content": "Mats Option",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Groupon",
+      "amount": "-22.99",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Missing",
+    "place": "Hallucination",
+    "orig_curr": "Misread",
+    "std_total": "Hallucination",
+    "orig_total": "Hallucination",
+    "seller_address": "Hallucination",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_477",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"2020-09-08\",\n  \"orig_start_time\": \"20SEP15 11:50\",\n  \"std_invoice_time\": \"2020-09-08\",\n  \"orig_invoice_time\": \"20SEP15 11:50\",\n  \"place\": \"Dunni\",\n  \"std_curr\": \"ZAR\",\n  \"orig_curr\": [],\n  \"std_total\": \"1531.00\",\n  \"orig_total\": \"1531.00\",\n  \"seller_name\": [\n    \"The Saxons Hotel\"\n  ],\n  \"seller_address\": [\n    \"Dunni\"\n  ],\n  \"invoice_number\": \"4629\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"2 San Pellegrino 750\",\n      \"amount\": \"150.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 GLS Oak Valley CHA\",\n      \"amount\": \"95.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Earl Grey\",\n      \"amount\": \"22.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Capuccino Foam\",\n      \"amount\": \"64.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 GLS Jordan CAB\",\n      \"amount\": \"115.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 GLS Fox Rose\",\n      \"amount\": \"165.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"2 Brunch Buffet\",\n      \"amount\": \"900.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Salmon Trout\",\n      \"amount\": \"0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"1 Carving Trolley\",\n      \"amount\": \"0.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Food\",\n      \"amount\": \"106.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Beverage\",\n      \"amount\": \"525.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Brunch\",\n      \"amount\": \"900.00\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"13:37 Amount Due\",\n      \"amount\": \"186.02\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"VAT 14%\",\n      \"amount\": \"1531.00\",\n      \"ifTax\": true\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2020-09-08",
+    "orig_start_time": "20SEP15 11:50",
+    "std_invoice_time": "2020-09-08",
+    "orig_invoice_time": "20SEP15 11:50",
+    "place": "Dunni",
+    "std_curr": "ZAR",
+    "orig_curr": [],
+    "std_total": "1531.00",
+    "orig_total": "1531.00",
+    "seller_name": [
+     "The Saxons Hotel"
+    ],
+    "seller_address": [
+     "Dunni"
+    ],
+    "invoice_number": "4629",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 San Pellegrino 750",
+      "amount": "150.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 GLS Oak Valley CHA",
+      "amount": "95.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Earl Grey",
+      "amount": "22.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Capuccino Foam",
+      "amount": "64.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 GLS Jordan CAB",
+      "amount": "115.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 GLS Fox Rose",
+      "amount": "165.00",
+      "ifTax": false
+     },
+     {
+      "content": "2 Brunch Buffet",
+      "amount": "900.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Salmon Trout",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Carving Trolley",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Food",
+      "amount": "106.00",
+      "ifTax": false
+     },
+     {
+      "content": "Beverage",
+      "amount": "525.00",
+      "ifTax": false
+     },
+     {
+      "content": "Brunch",
+      "amount": "900.00",
+      "ifTax": false
+     },
+     {
+      "content": "13:37 Amount Due",
+      "amount": "186.02",
+      "ifTax": false
+     },
+     {
+      "content": "VAT 14%",
+      "amount": "1531.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-09-20",
+    "orig_start_time": "20SEP'15",
+    "std_invoice_time": "2015-09-20",
+    "orig_invoice_time": "20SEP'15",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [],
+    "std_total": "0.00",
+    "orig_total": "1531.00",
+    "seller_name": [
+     "The Saxon Hotel"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 San Peleg T50",
+      "amount": "150.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 GLS Oak Vail CHA",
+      "amount": "95.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Earl Grey",
+      "amount": "22.00",
+      "ifTax": true
+     },
+     {
+      "content": "3 Caprese Feam",
+      "amount": "84.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 GLS Jordan CAB",
+      "amount": "115.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 GLS Fox Rosa",
+      "amount": "165.00",
+      "ifTax": true
+     },
+     {
+      "content": "2 Brunch Buffet",
+      "amount": "900.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Salmon Trout",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Carving Trolley",
+      "amount": "0.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Hallucination",
+    "std_curr": "Misread",
+    "std_total": "Hallucination",
+    "seller_address": "Hallucination",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_747",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"2017-11-13\",\n  \"orig_start_time\": \"11-13-17 11:41A\",\n  \"std_invoice_time\": \"2017-02-07\",\n  \"orig_invoice_time\": \"0302/0027/1911/4 2312XX\",\n  \"place\": \"North Carolina-Greensboro\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Greensboro, NC 27410\"],\n  \"std_total\": \"108.85\",\n  \"orig_total\": \"$108.85-\",\n  \"seller_name\": [\n    \"Kohl's\"\n  ],\n  \"seller_address\": [\n    \"North Carolina-Greensboro\"\n  ],\n  \"invoice_number\": \"2312XX\",\n  \"tax_number\": \"302\",\n  \"detail\": [\n    {\n      \"content\": \"GIRLS7-16 DRESS\",\n      \"amount\": \"33.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"WITHOUT RECEIPT\",\n      \"amount\": \"\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"GIRLS7-16 DRESS\",\n      \"amount\": \"33.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"WITHOUT RECEIPT\",\n      \"amount\": \"\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"GIRLS7-16 DRESS\",\n      \"amount\": \"33.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"WITHOUT RECEIPT\",\n      \"amount\": \"\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"SUBTOTAL\",\n      \"amount\": \"101.97\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"RETURN TAX- PURCHASE STORE\",\n      \"amount\": \"302\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"A = 101.97-@ 6.75%\",\n      \"amount\": \"6.88\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"TOTAL\",\n      \"amount\": \"108.85\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2017-11-13",
+    "orig_start_time": "11-13-17 11:41A",
+    "std_invoice_time": "2017-02-07",
+    "orig_invoice_time": "0302/0027/1911/4 2312XX",
+    "place": "North Carolina-Greensboro",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Greensboro, NC 27410"
+    ],
+    "std_total": "108.85",
+    "orig_total": "$108.85-",
+    "seller_name": [
+     "Kohl's"
+    ],
+    "seller_address": [
+     "North Carolina-Greensboro"
+    ],
+    "invoice_number": "2312XX",
+    "tax_number": "302",
+    "detail": [
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "WITHOUT RECEIPT",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "WITHOUT RECEIPT",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "WITHOUT RECEIPT",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "101.97",
+      "ifTax": false
+     },
+     {
+      "content": "RETURN TAX- PURCHASE STORE",
+      "amount": "302",
+      "ifTax": false
+     },
+     {
+      "content": "A = 101.97-@ 6.75%",
+      "amount": "6.88",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL",
+      "amount": "108.85",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-11-13",
+    "orig_start_time": "11-13-17",
+    "std_invoice_time": "2017-11-13",
+    "orig_invoice_time": "11-13-17",
+    "place": "USA-Greensboro",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Greensboro"
+    ],
+    "std_total": "108.85",
+    "orig_total": "108.85",
+    "seller_name": [
+     "Kohl's"
+    ],
+    "seller_address": [
+     "USA-Greensboro"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "GIRLS7-16 DRESS",
+      "amount": "33.99",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "6.88",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_79",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"2018-11-08\",\n  \"orig_start_time\": \"11-08-2018\",\n  \"std_invoice_time\": \"2018-11-08\",\n  \"orig_invoice_time\": \"11-08-2018\",\n  \"place\": \"Catawba, NC\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Catawba, NC\"],\n  \"std_total\": \"33.51\",\n  \"orig_total\": \"$ 33.51\",\n  \"seller_name\": [\n    \"INSHP\"\n  ],\n  \"seller_address\": [\n    \"Catawba, NC\"\n  ],\n  \"invoice_number\": \"1710\",\n  \"tax_number\": \"202-779-2111\",\n  \"detail\": [\n    {\n      \"content\": \"#16 Club Lofu\",\n      \"amount\": \"6.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"#4 Turkey Tom\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO mayo\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO tosetoes\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"ADD cheese\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"#4 Turkey Tom\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO mayo\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO tosetoes\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"ADD cheese\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"#4 Turkey Tom\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO mayo\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"NO tosetoes\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"ADD cheese\",\n      \"amount\": \"5.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"ADD cucumbers\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"ADD cheese\",\n      \"amount\": \"0.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Jimmy Regular Chips\",\n      \"amount\": \"1.29\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Jimmy Regular Chips\",\n      \"amount\": \"1.29\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Jimmy Regular Chips\",\n      \"amount\": \"1.29\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Subtotal\",\n      \"amount\": \"30.60\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Sales Tax (9.5%)\",\n      \"amount\": \"2.91\",\n      \"ifTax\": true\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "2018-11-08",
+    "orig_start_time": "11-08-2018",
+    "std_invoice_time": "2018-11-08",
+    "orig_invoice_time": "11-08-2018",
+    "place": "Catawba, NC",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Catawba, NC"
+    ],
+    "std_total": "33.51",
+    "orig_total": "$ 33.51",
+    "seller_name": [
+     "INSHP"
+    ],
+    "seller_address": [
+     "Catawba, NC"
+    ],
+    "invoice_number": "1710",
+    "tax_number": "202-779-2111",
+    "detail": [
+     {
+      "content": "#16 Club Lofu",
+      "amount": "6.99",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "NO mayo",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "NO tosetoes",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "NO mayo",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "NO tosetoes",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "NO mayo",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "NO tosetoes",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cucumbers",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "30.60",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax (9.5%)",
+      "amount": "2.91",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-06-11",
+    "orig_start_time": "06-11-2016",
+    "std_invoice_time": "2016-06-11",
+    "orig_invoice_time": "06-11-2016",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "33.51",
+    "orig_total": "33.51",
+    "seller_name": [
+     "INSHOP"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "#1 Club Lulu",
+      "amount": "6.99",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax (9.5%)",
+      "amount": "2.91",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Hallucination",
+    "orig_curr": "Misread",
+    "seller_address": "Hallucination",
+    "invoice_number": "Hallucination",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_809",
+   "n_wrong": 10,
+   "raw_text": "{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"1-01-3-01-009563\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"1-01-3-01-009563\",\n  \"place\": \"Los Angeles, CA\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"Los Angeles, CA\"],\n  \"std_total\": \"95.63\",\n  \"orig_total\": \"$95.63\",\n  \"seller_name\": [\"ROSS\"],\n  \"seller_address\": [\"USA\"],\n  \"invoice_number\": \"0078-02-9075-5298-7\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\n      \"content\": \"40013033735 Lg 2 Pc 3 Drawer/S\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"40013333437 GUESS GIRL 1.7 SPR\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"40012889467 FLUTE SATIN PEG\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"40013224718 NAT GPK BLACK COMP\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"40012587190 SEAR PINK BLK TOT\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"400126571989 BLK SINGLE TOT\",\n      \"amount\": \"14.99\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Subtotal\",\n      \"amount\": \"87.89\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Sales Tax 8.75%\",\n      \"amount\": \"7.89\",\n      \"ifTax\": true\n    },\n    {\n      \"content\": \"Total\",\n      \"amount\": \"95.63\",\n      \"ifTax\": false\n    }\n  ]\n}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "1-01-3-01-009563",
+    "std_invoice_time": "",
+    "orig_invoice_time": "1-01-3-01-009563",
+    "place": "Los Angeles, CA",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Los Angeles, CA"
+    ],
+    "std_total": "95.63",
+    "orig_total": "$95.63",
+    "seller_name": [
+     "ROSS"
+    ],
+    "seller_address": [
+     "USA"
+    ],
+    "invoice_number": "0078-02-9075-5298-7",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "40013033735 Lg 2 Pc 3 Drawer/S",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "40013333437 GUESS GIRL 1.7 SPR",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "40012889467 FLUTE SATIN PEG",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "40013224718 NAT GPK BLACK COMP",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "40012587190 SEAR PINK BLK TOT",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "400126571989 BLK SINGLE TOT",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "87.89",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax 8.75%",
+      "amount": "7.89",
+      "ifTax": true
+     },
+     {
+      "content": "Total",
+      "amount": "95.63",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "USA-CA",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "CA"
+    ],
+    "std_total": "95.83",
+    "orig_total": "95.83",
+    "seller_name": [
+     "DRESS FOR LESS"
+    ],
+    "seller_address": [
+     "USA-CA"
+    ],
+    "invoice_number": "0076-02-9075-5298-7",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "400130377353 Lg 2 Pc 3 Drawer/S",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "400133394357 GUESS GIRL 1.7 SPR",
+      "amount": "16.99",
+      "ifTax": false
+     },
+     {
+      "content": "400128934674 FLUTE SATIN PEDEST",
+      "amount": "12.99",
+      "ifTax": false
+     },
+     {
+      "content": "400132247186 NAT 6PK BLACK com",
+      "amount": "5.99",
+      "ifTax": false
+     },
+     {
+      "content": "400125977100 BEAR PAW BLK PO",
+      "amount": "1.99",
+      "ifTax": false
+     },
+     {
+      "content": "400126571369 BLK SINGLE TROGLE",
+      "amount": "34.99",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax",
+      "amount": "7.69",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Hallucination",
+    "orig_invoice_time": "Hallucination",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  }
+ ],
+ "parse_failures": [
+  {
+   "base": "1_PurchaseTicket_752",
+   "raw_text": "{\n  \"std_start_time\": \"2013-04-04\",\n  \"orig_start_time\": \"04/13/2017\",\n  \"std_invoice_time\": \"2013-04-04\",\n  \"orig_invoice_time\": \"04/13/2017\",\n  \"place\": \"WA\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\", \"WA\"],\n  \"std_total\": \"110.81\",\n  \"orig_total\": \"110.81\",\n  \"seller_name\": [\"Lynnwood #1190\"],\n  \"seller_address\": [\"WA\"],\n  \"invoice_number\": \"1190\",\n  \"tax_number\": \"961990\",\n  \"detail\": [\n    {\n      \"content\": \"F 1099906 83220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+# Pod (RunPod RTX 4090, Linux) dependencies. Checked against pip freeze in checkpoint 12:
+# all pins below matched. Full freeze in requirements-pod-freeze.txt.
+# Image: runpod/pytorch:1.4.0-cu1281-torch2130-ubuntu2404 (ships torch 2.13.0+cu129,
+# torchvision 0.28.0+cu129; pip also pulled xformers 0.0.35).
+# torch/torchvision are not pinned: the image ships the CUDA build
+# (unsloth needs torch>=2.4,<2.15). Pinning here could pull a CPU or mismatched CUDA wheel.
+
+# Same pins as requirements-local.txt
+pillow==12.1.0
+rapidfuzz==3.14.3
+scipy==1.18.1
+numpy==2.4.1
+matplotlib==3.11.1
+python-dateutil==2.9.0.post0
+openai==2.16.0
+
+# Training stack (versions chosen inside unsloth 2026.10.6's supported ranges)
+unsloth==2026.10.6
+unsloth_zoo==2026.10.6
+transformers==5.17.0
+trl==1.15.0
+peft==0.21.2
+datasets==4.8.5
+accelerate==1.15.0
+bitsandbytes==0.50.2

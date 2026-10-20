@@ -1,0 +1,2223 @@
+{
+ "examples": [
+  {
+   "base": "1_PurchaseTicket_1112",
+   "n_wrong": 13,
+   "raw_text": "{\"std_start_time\":\"2011-02-28\",\"orig_start_time\":\"2/28/2011\",\"std_invoice_time\":\"2011-02-28\",\"orig_invoice_time\":\"2/28/2011\",\"place\":\"United States-Miami\",\"std_curr\":\"USD\",\"orig_curr\":[\"MIAMI\"],\"std_total\":\"415.38\",\"orig_total\":\"415.38\",\"seller_name\":[\"La Baguette Bar & Grill\"],\"seller_address\":[\"United States-Miami\"],\"invoice_number\":\"1011267\",\"tax_number\":\"\",\"detail\":[{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.0",
+   "pred": null,
+   "target": {
+    "std_start_time": "2016-02-29",
+    "orig_start_time": "2/29/2016",
+    "std_invoice_time": "2016-02-29",
+    "orig_invoice_time": "2/29/2016",
+    "place": "United States-Miami",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Miami"
+    ],
+    "std_total": "415.38",
+    "orig_total": "415.38",
+    "seller_name": [
+     "La Baguette Bar & Grill"
+    ],
+    "seller_address": [
+     "United States-Miami"
+    ],
+    "invoice_number": "1001/111257",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Super Drink Lime",
+      "amount": "55.00",
+      "ifTax": false
+     },
+     {
+      "content": "Super Drink Mango",
+      "amount": "55.00",
+      "ifTax": false
+     },
+     {
+      "content": "Super Drink Mint",
+      "amount": "55.00",
+      "ifTax": false
+     },
+     {
+      "content": "Super Drink Pina",
+      "amount": "55.00",
+      "ifTax": false
+     },
+     {
+      "content": "Super Drink Prickly Pear",
+      "amount": "12.00",
+      "ifTax": false
+     },
+     {
+      "content": "Steak Sandwhich Medium",
+      "amount": "15.99",
+      "ifTax": false
+     },
+     {
+      "content": "Fried Potatoes",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "Prosciutto",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "Beef Burger",
+      "amount": "16.99",
+      "ifTax": false
+     },
+     {
+      "content": "Spinach & Cheese",
+      "amount": "25.99",
+      "ifTax": false
+     },
+     {
+      "content": "STK",
+      "amount": "2.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "29.07",
+      "ifTax": true
+     },
+     {
+      "content": "Service Charge",
+      "amount": "63.36",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "place": "Missing",
+    "std_curr": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Missing",
+    "orig_total": "Missing",
+    "seller_name": "Missing",
+    "seller_address": "Missing",
+    "invoice_number": "Missing",
+    "detail": "Missing"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1091",
+   "n_wrong": 12,
+   "raw_text": "{\"std_start_time\":\"2016-05-10\",\"orig_start_time\":\"05/01/2016\",\"std_invoice_time\":\"2016-05-10\",\"orig_invoice_time\":\"05/01/2016\",\"place\":\"Malaysia-Petaling Jaya\",\"std_curr\":\"MYR\",\"orig_curr\":[\"Petaling Jaya\"],\"std_total\":\"63.20\",\"orig_total\":\"63.20\",\"seller_name\":[\"TAI CHONG SEAFOOD SDN BHD\"],\"seller_address\":[\"Malaysia-Petaling Jaya\"],\"invoice_number\":\"C500004071\",\"tax_number\":\"00132395860\",\"detail\":[{\"content\":\"SR STEAMED EGGS\",\"amount\":\"10.00\",\"ifTax\":true},{\"content\":\"SR FISH\",\"amount\":\"24.00\",\"ifTax\":true},{\"content\":\"SR VEGETABLES\",\"amount\":\"15.00\",\"ifTax\":true},{\"content\":\"SR RICE\",\"amount\":\"12.00\",\"ifTax\":true},{\"content\":\"SR CHINESE TEA\",\"amount\":\"3.00\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2016-05-10",
+    "orig_start_time": "05/01/2016",
+    "std_invoice_time": "2016-05-10",
+    "orig_invoice_time": "05/01/2016",
+    "place": "Malaysia-Petaling Jaya",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Petaling Jaya"
+    ],
+    "std_total": "63.20",
+    "orig_total": "63.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "Malaysia-Petaling Jaya"
+    ],
+    "invoice_number": "C500004071",
+    "tax_number": "00132395860",
+    "detail": [
+     {
+      "content": "SR STEAMED EGGS",
+      "amount": "10.00",
+      "ifTax": true
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": true
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": true
+     },
+     {
+      "content": "SR RICE",
+      "amount": "12.00",
+      "ifTax": true
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-03-15",
+    "orig_start_time": " 03/15/2016",
+    "std_invoice_time": "2016-03-15",
+    "orig_invoice_time": "03/15/2016",
+    "place": "Malaysia-Perak",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Perak"
+    ],
+    "std_total": "53.20",
+    "orig_total": "53.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "Malaysia-Perak"
+    ],
+    "invoice_number": "CS00004071",
+    "tax_number": "001323335680",
+    "detail": [
+     {
+      "content": "SR STEAMED EGG",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR RICE",
+      "amount": "1.20",
+      "ifTax": false
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge",
+      "amount": "0.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1085",
+   "n_wrong": 10,
+   "raw_text": "{\"std_start_time\":\"2017-08-09\",\"orig_start_time\":\"09Sep17\",\"std_invoice_time\":\"2017-08-09\",\"orig_invoice_time\":\"09Sep17\",\"place\":\"India-Patna\",\"std_curr\":\"INR\",\"orig_curr\":[\"Patna\"],\"std_total\":\"0.00\",\"orig_total\":\"0.00\",\"seller_name\":[],\"seller_address\":[\"India-Patna\"],\"invoice_number\":\"076503\",\"tax_number\":\"\",\"detail\":[{\"content\":\"SAMOSA PACK\",\"amount\":\"236.00\",\"ifTax\":true},{\"content\":\"SMALL-PLAIN POPCORN\",\"amount\":\"424.80\",\"ifTax\":true},{\"content\":\"COKE ZERO\",\"amount\":\"240.64\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2017-08-09",
+    "orig_start_time": "09Sep17",
+    "std_invoice_time": "2017-08-09",
+    "orig_invoice_time": "09Sep17",
+    "place": "India-Patna",
+    "std_curr": "INR",
+    "orig_curr": [
+     "Patna"
+    ],
+    "std_total": "0.00",
+    "orig_total": "0.00",
+    "seller_name": [],
+    "seller_address": [
+     "India-Patna"
+    ],
+    "invoice_number": "076503",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "SAMOSA PACK",
+      "amount": "236.00",
+      "ifTax": true
+     },
+     {
+      "content": "SMALL-PLAIN POPCORN",
+      "amount": "424.80",
+      "ifTax": true
+     },
+     {
+      "content": "COKE ZERO",
+      "amount": "240.64",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-09-08",
+    "orig_start_time": "08Sep17",
+    "std_invoice_time": "2017-09-08",
+    "orig_invoice_time": "08Sep17",
+    "place": "India-Patna",
+    "std_curr": "INR",
+    "orig_curr": [
+     "RS",
+     "Patna"
+    ],
+    "std_total": "900.00",
+    "orig_total": "900.00",
+    "seller_name": [
+     "C. PATNA"
+    ],
+    "seller_address": [
+     "India-Patna"
+    ],
+    "invoice_number": "078503",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "SAMOSA PLATE",
+      "amount": "236.00",
+      "ifTax": true
+     },
+     {
+      "content": "SMALL FLAV POPCORN",
+      "amount": "424.80",
+      "ifTax": true
+     },
+     {
+      "content": "COKE 250ML",
+      "amount": "240.04",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Missing",
+    "orig_total": "Missing",
+    "seller_name": "Missing",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_412",
+   "n_wrong": 10,
+   "raw_text": "{\"std_start_time\":\"2018-02-17\",\"orig_start_time\":\"17/02/2018\",\"std_invoice_time\":\"2018-02-17\",\"orig_invoice_time\":\"17/02/2018\",\"place\":\"\",\"std_curr\":\"EUR\",\"orig_curr\":[],\"std_total\":\"170.73\",\"orig_total\":\"170.73\",\"seller_name\":[],\"seller_address\":[],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"2 BUFF AQUA\",\"amount\":\"138.00\",\"ifTax\":true},{\"content\":\"1 E-BUFFET\",\"amount\":\"39.00\",\"ifTax\":true},{\"content\":\"1 50CL VITTEL V\",\"amount\":\"6.00\",\"ifTax\":true},{\"content\":\"1 33CL CIDA V\",\"amount\":\"6.70\",\"ifTax\":true},{\"content\":\"R Magic plus\",\"amount\":\"-18.97\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2018-02-17",
+    "orig_start_time": "17/02/2018",
+    "std_invoice_time": "2018-02-17",
+    "orig_invoice_time": "17/02/2018",
+    "place": "",
+    "std_curr": "EUR",
+    "orig_curr": [],
+    "std_total": "170.73",
+    "orig_total": "170.73",
+    "seller_name": [],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 BUFF AQUA",
+      "amount": "138.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 E-BUFFET",
+      "amount": "39.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 50CL VITTEL V",
+      "amount": "6.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 33CL CIDA V",
+      "amount": "6.70",
+      "ifTax": true
+     },
+     {
+      "content": "R Magic plus",
+      "amount": "-18.97",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2018-08-17",
+    "orig_start_time": "17/8/2018",
+    "std_invoice_time": "2018-08-17",
+    "orig_invoice_time": "17/8/2018",
+    "place": "France-Marne la Vallée",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "MARNE LA VALLEE"
+    ],
+    "std_total": "170.73",
+    "orig_total": "170.73",
+    "seller_name": [
+     "Disneyland Hotel"
+    ],
+    "seller_address": [
+     "France-Marne la Vallée"
+    ],
+    "invoice_number": "1012141",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "2 BUFFET ADULTE",
+      "amount": "138.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 E-BUFFET",
+      "amount": "39.00",
+      "ifTax": true
+     },
+     {
+      "content": "50CL VITTEL VC*",
+      "amount": "6.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 33CL COCA VC",
+      "amount": "6.70",
+      "ifTax": true
+     },
+     {
+      "content": "R Magic plus",
+      "amount": "-18.97",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Missing",
+    "orig_curr": "Missing",
+    "seller_name": "Missing",
+    "seller_address": "Missing",
+    "invoice_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_757",
+   "n_wrong": 10,
+   "raw_text": "{\"std_start_time\":\"2016-05-12\",\"orig_start_time\":\"05/12/2016\",\"std_invoice_time\":\"2016-05-12\",\"orig_invoice_time\":\"05/12/2016\",\"place\":\"\",\"std_curr\":\"USD\",\"orig_curr\":[\"£\"],\"std_total\":\"15.55\",\"orig_total\":\"15.55\",\"seller_name\":[\"Morrisons\"],\"seller_address\":[],\"invoice_number\":\"\",\"tax_number\":\"5151 4056406\",\"detail\":[{\"content\":\"Create Own Breakfast\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"BACON\",\"amount\":\"2.10\",\"ifTax\":false},{\"content\":\"MUSHROOMS\",\"amount\":\"0.60\",\"ifTax\":false},{\"content\":\"FRIED EGG\",\"amount\":\"0.60\",\"ifTax\":false},{\"content\":\"One Toast 2 slices\",\"amount\":\"0.60\",\"ifTax\":false},{\"content\":\"Large Fizz\",\"amount\":\"1.45\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2016-05-12",
+    "orig_start_time": "05/12/2016",
+    "std_invoice_time": "2016-05-12",
+    "orig_invoice_time": "05/12/2016",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "£"
+    ],
+    "std_total": "15.55",
+    "orig_total": "15.55",
+    "seller_name": [
+     "Morrisons"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "5151 4056406",
+    "detail": [
+     {
+      "content": "Create Own Breakfast",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "BACON",
+      "amount": "2.10",
+      "ifTax": false
+     },
+     {
+      "content": "MUSHROOMS",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "FRIED EGG",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "One Toast 2 slices",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "Large Fizz",
+      "amount": "1.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-12-05",
+    "orig_start_time": "05/12/2016",
+    "std_invoice_time": "2016-12-05",
+    "orig_invoice_time": "05/12/2016",
+    "place": "United Kingdom-Speke",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "Speke",
+     "£"
+    ],
+    "std_total": "5.55",
+    "orig_total": "5.55",
+    "seller_name": [
+     "Morrisons"
+    ],
+    "seller_address": [
+     "United Kingdom-Speke"
+    ],
+    "invoice_number": "",
+    "tax_number": "343475355",
+    "detail": [
+     {
+      "content": "Create Own Breakfast",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "3 --> BACON",
+      "amount": "2.10",
+      "ifTax": false
+     },
+     {
+      "content": "1 --> MUSHROOMS",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 --> FRIED EGG",
+      "amount": "0.60",
+      "ifTax": false
+     },
+     {
+      "content": "1 Unt Toast 2 Slices",
+      "amount": "0.80",
+      "ifTax": false
+     },
+     {
+      "content": "1 Large Fizzy",
+      "amount": "1.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "place": "Missing",
+    "std_curr": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Missing",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_890",
+   "n_wrong": 10,
+   "raw_text": "{\"std_start_time\":\"2014-05-30\",\"orig_start_time\":\"30/05/2014\",\"std_invoice_time\":\"2014-05-30\",\"orig_invoice_time\":\"30/05/2014\",\"place\":\"\",\"std_curr\":\"USD\",\"orig_curr\":[\"USD\"],\"std_total\":\"48.00\",\"orig_total\":\"48,000\",\"seller_name\":[\"HIGHLANDS COFFEE\"],\"seller_address\":[],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"Iced-Coffee CondensedMilk\",\"amount\":\"29,000.00\",\"ifTax\":false},{\"content\":\"Lime Juice\",\"amount\":\"39,000.00\",\"ifTax\":false},{\"content\":\"Gift voucher 20k for survey\",\"amount\":\"-20,000.00\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2014-05-30",
+    "orig_start_time": "30/05/2014",
+    "std_invoice_time": "2014-05-30",
+    "orig_invoice_time": "30/05/2014",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "USD"
+    ],
+    "std_total": "48.00",
+    "orig_total": "48,000",
+    "seller_name": [
+     "HIGHLANDS COFFEE"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Iced-Coffee CondensedMilk",
+      "amount": "29,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "Lime Juice",
+      "amount": "39,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "Gift voucher 20k for survey",
+      "amount": "-20,000.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2014-05-20",
+    "orig_start_time": "20/05/2014",
+    "std_invoice_time": "2014-05-20",
+    "orig_invoice_time": "20/05/2014 ",
+    "place": "Vietnam-Ho Chi Minh City",
+    "std_curr": "VND",
+    "orig_curr": [
+     "HCMC"
+    ],
+    "std_total": "0.00",
+    "orig_total": "48,000",
+    "seller_name": [
+     "HIGHLANDS COFFEE"
+    ],
+    "seller_address": [
+     "Vietnam-Ho Chi Minh City"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Iced-Coffee CondensedMilk",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Lime Juice",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Gift voucher 20k for survey",
+      "amount": "0.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Missing",
+    "std_curr": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Hallucination",
+    "seller_address": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1240",
+   "n_wrong": 9,
+   "raw_text": "{\"std_start_time\":\"2017-07-11\",\"orig_start_time\":\"07/11/17\",\"std_invoice_time\":\"2017-07-11\",\"orig_invoice_time\":\"07/11/17\",\"place\":\"USA-Dalton\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\",\"Dalton\"],\"std_total\":\"68.02\",\"orig_total\":\"68.02\",\"seller_name\":[\"SHELL\"],\"seller_address\":[\"USA-Dalton\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"PUMP PRODUCT\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"DOLLARS FUEL TOTAL\",\"amount\":\"68.02\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2017-07-11",
+    "orig_start_time": "07/11/17",
+    "std_invoice_time": "2017-07-11",
+    "orig_invoice_time": "07/11/17",
+    "place": "USA-Dalton",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Dalton"
+    ],
+    "std_total": "68.02",
+    "orig_total": "68.02",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Dalton"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PUMP PRODUCT",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "DOLLARS FUEL TOTAL",
+      "amount": "68.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2019-01-17",
+    "orig_start_time": "01/17/19",
+    "std_invoice_time": "2019-01-17",
+    "orig_invoice_time": "01/17/19",
+    "place": "USA-Salisbury",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Salisbury"
+    ],
+    "std_total": "68.02",
+    "orig_total": "68.02",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Salisbury"
+    ],
+    "invoice_number": "522872",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "20.819 GALLONS PUMP PRODUCT",
+      "amount": "68.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1555",
+   "n_wrong": 9,
+   "raw_text": "{\"std_start_time\":\"2017-06-12\",\"orig_start_time\":\"JUNE 12, 2017\",\"std_invoice_time\":\"2017-06-12\",\"orig_invoice_time\":\"JUNE 12, 2017\",\"place\":\"United States-Beach\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\",\"Beach\"],\"std_total\":\"295.41\",\"orig_total\":\"295.41\",\"seller_name\":[\"COLUMBUS RESTAURANT\"],\"seller_address\":[\"United States-Beach\"],\"invoice_number\":\"212739-1\",\"tax_number\":\"\",\"detail\":[{\"content\":\"1 COKE\",\"amount\":\"4.50\",\"ifTax\":false},{\"content\":\"1 ICE TEA\",\"amount\":\"4.50\",\"ifTax\":false},{\"content\":\"1 Paella x2\",\"amount\":\"150.00\",\"ifTax\":false},{\"content\":\"1 PIMI CELESTA\",\"amount\":\"35.00\",\"ifTax\":false},{\"content\":\"1 Bulldog\",\"amount\":\"35.00\",\"ifTax\":false},{\"content\":\"1 MANGO DAIQ\",\"amount\":\"35.00\",\"ifTax\":false},{\"content\":\"SERVICE\",\"amount\":\"45.80\",\"ifTax\":false},{\"content\":\"Sales Tax\",\"amount\":\"20.01\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2017-06-12",
+    "orig_start_time": "JUNE 12, 2017",
+    "std_invoice_time": "2017-06-12",
+    "orig_invoice_time": "JUNE 12, 2017",
+    "place": "United States-Beach",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Beach"
+    ],
+    "std_total": "295.41",
+    "orig_total": "295.41",
+    "seller_name": [
+     "COLUMBUS RESTAURANT"
+    ],
+    "seller_address": [
+     "United States-Beach"
+    ],
+    "invoice_number": "212739-1",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "1 COKE",
+      "amount": "4.50",
+      "ifTax": false
+     },
+     {
+      "content": "1 ICE TEA",
+      "amount": "4.50",
+      "ifTax": false
+     },
+     {
+      "content": "1 Paella x2",
+      "amount": "150.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 PIMI CELESTA",
+      "amount": "35.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Bulldog",
+      "amount": "35.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 MANGO DAIQ",
+      "amount": "35.00",
+      "ifTax": false
+     },
+     {
+      "content": "SERVICE",
+      "amount": "45.80",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax",
+      "amount": "20.01",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-06-12",
+    "orig_start_time": "JUNE 12, 2015",
+    "std_invoice_time": "2015-06-12",
+    "orig_invoice_time": "JUNE 12, 2015",
+    "place": "nan",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "295.41",
+    "orig_total": "295.41",
+    "seller_name": [
+     "COLUMBUS RESTAURANT"
+    ],
+    "seller_address": [
+     "USA"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "COKE",
+      "amount": "4.50",
+      "ifTax": false
+     },
+     {
+      "content": "ICE TEA",
+      "amount": "4.50",
+      "ifTax": false
+     },
+     {
+      "content": "Paella x2",
+      "amount": "150.00",
+      "ifTax": false
+     },
+     {
+      "content": "PINA COLADA 1 Bu11dog",
+      "amount": "35.00",
+      "ifTax": false
+     },
+     {
+      "content": "MANGO DAIQ 1 Bu11dog",
+      "amount": "35.00",
+      "ifTax": false
+     },
+     {
+      "content": "SERVICE",
+      "amount": "45.80",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax",
+      "amount": "20.61",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_549",
+   "n_wrong": 9,
+   "raw_text": "{\"std_start_time\":\"2016-08-03\",\"orig_start_time\":\"2016\",\"std_invoice_time\":\"2016-08-03\",\"orig_invoice_time\":\"2016\",\"place\":\"United Kingdom-Manchester\",\"std_curr\":\"GBP\",\"orig_curr\":[\"Manchester\"],\"std_total\":\"10.75\",\"orig_total\":\"10.75\",\"seller_name\":[\"The Grain Loft\"],\"seller_address\":[\"United Kingdom-Manchester\"],\"invoice_number\":\"6063\",\"tax_number\":\"864 2579 78\",\"detail\":[{\"content\":\"Americano 16oz\",\"amount\":\"2.80\",\"ifTax\":true},{\"content\":\"Zinf Whisp 250\",\"amount\":\"7.95\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2016-08-03",
+    "orig_start_time": "2016",
+    "std_invoice_time": "2016-08-03",
+    "orig_invoice_time": "2016",
+    "place": "United Kingdom-Manchester",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "Manchester"
+    ],
+    "std_total": "10.75",
+    "orig_total": "10.75",
+    "seller_name": [
+     "The Grain Loft"
+    ],
+    "seller_address": [
+     "United Kingdom-Manchester"
+    ],
+    "invoice_number": "6063",
+    "tax_number": "864 2579 78",
+    "detail": [
+     {
+      "content": "Americano 16oz",
+      "amount": "2.80",
+      "ifTax": true
+     },
+     {
+      "content": "Zinf Whisp 250",
+      "amount": "7.95",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-09-17",
+    "orig_start_time": "17Sep'17",
+    "std_invoice_time": "2017-09-17",
+    "orig_invoice_time": "17Sep'17",
+    "place": "UK-Manchester",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "Manchester"
+    ],
+    "std_total": "10.75",
+    "orig_total": "10.75",
+    "seller_name": [
+     "The Grain Loft"
+    ],
+    "seller_address": [
+     "UK-Manchester"
+    ],
+    "invoice_number": "8053",
+    "tax_number": "884 2579 78",
+    "detail": [
+     {
+      "content": "1 Americano 16oz",
+      "amount": "2.80",
+      "ifTax": true
+     },
+     {
+      "content": "1 Zinfandel 250",
+      "amount": "7.95",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_79",
+   "n_wrong": 9,
+   "raw_text": "{\"std_start_time\":\"2018-08-11\",\"orig_start_time\":\"08-11-2018\",\"std_invoice_time\":\"2018-08-11\",\"orig_invoice_time\":\"08-11-2018\",\"place\":\"USA-Catolic Circle\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\",\"Catolic Circle\"],\"std_total\":\"33.51\",\"orig_total\":\"33.51\",\"seller_name\":[\"Jimmy Johns\"],\"seller_address\":[\"USA-Catolic Circle\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"#16 Club Lot\",\"amount\":\"6.99\",\"ifTax\":false},{\"content\":\"#4 Turkey Tom\",\"amount\":\"5.69\",\"ifTax\":false},{\"content\":\"#4 Turkey Tom\",\"amount\":\"5.69\",\"ifTax\":false},{\"content\":\"#4 Turkey Tom\",\"amount\":\"5.69\",\"ifTax\":false},{\"content\":\"Jimmy Regular Chips\",\"amount\":\"1.29\",\"ifTax\":false},{\"content\":\"Jimmy Regular Chips\",\"amount\":\"1.29\",\"ifTax\":false},{\"content\":\"Jimmy Regular Chips\",\"amount\":\"1.29\",\"ifTax\":false},{\"content\":\"Sales Tax (9.5%)\",\"amount\":\"2.91\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2018-08-11",
+    "orig_start_time": "08-11-2018",
+    "std_invoice_time": "2018-08-11",
+    "orig_invoice_time": "08-11-2018",
+    "place": "USA-Catolic Circle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Catolic Circle"
+    ],
+    "std_total": "33.51",
+    "orig_total": "33.51",
+    "seller_name": [
+     "Jimmy Johns"
+    ],
+    "seller_address": [
+     "USA-Catolic Circle"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "#16 Club Lot",
+      "amount": "6.99",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax (9.5%)",
+      "amount": "2.91",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-06-11",
+    "orig_start_time": "06-11-2016",
+    "std_invoice_time": "2016-06-11",
+    "orig_invoice_time": "06-11-2016",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "33.51",
+    "orig_total": "33.51",
+    "seller_name": [
+     "INSHOP"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "#1 Club Lulu",
+      "amount": "6.99",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "#4 Turkey Tom",
+      "amount": "5.69",
+      "ifTax": false
+     },
+     {
+      "content": "ADD cheese",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Jimmy Regular Chips",
+      "amount": "1.29",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax (9.5%)",
+      "amount": "2.91",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Hallucination",
+    "orig_curr": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1017",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2024-09-06\",\"orig_start_time\":\"09/06/2024\",\"std_invoice_time\":\"2024-09-06\",\"orig_invoice_time\":\"09/06/2024\",\"place\":\"India-New Delhi\",\"std_curr\":\"INR\",\"orig_curr\":[\"New Delhi\"],\"std_total\":\"0.00\",\"orig_total\":\"4864.00\",\"seller_name\":[\"Mezze Mambo\"],\"seller_address\":[\"India-New Delhi\"],\"invoice_number\":\"B100002142\",\"tax_number\":\"07AAUFN7358L1ZB\",\"detail\":[{\"content\":\"CHELOW KEBAB\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"HAR AAM K HOR\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"PALESTINIAN POUND CAKE\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"TABAK MAAZ\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"WHITE WINE GARLIC PRAWNS\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"CGST@2.5%\",\"amount\":\"89.79\",\"ifTax\":true},{\"content\":\"SGST@2.5%\",\"amount\":\"89.79\",\"ifTax\":true},{\"content\":\"S.CHARGE@10%\",\"amount\":\"406.00\",\"ifTax\":false},{\"content\":\"Vat on Liquor@25%\",\"amount\":\"218.63\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2024-09-06",
+    "orig_start_time": "09/06/2024",
+    "std_invoice_time": "2024-09-06",
+    "orig_invoice_time": "09/06/2024",
+    "place": "India-New Delhi",
+    "std_curr": "INR",
+    "orig_curr": [
+     "New Delhi"
+    ],
+    "std_total": "0.00",
+    "orig_total": "4864.00",
+    "seller_name": [
+     "Mezze Mambo"
+    ],
+    "seller_address": [
+     "India-New Delhi"
+    ],
+    "invoice_number": "B100002142",
+    "tax_number": "07AAUFN7358L1ZB",
+    "detail": [
+     {
+      "content": "CHELOW KEBAB",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "HAR AAM K HOR",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "PALESTINIAN POUND CAKE",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "TABAK MAAZ",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHITE WINE GARLIC PRAWNS",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "CGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "SGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "S.CHARGE@10%",
+      "amount": "406.00",
+      "ifTax": false
+     },
+     {
+      "content": "Vat on Liquor@25%",
+      "amount": "218.63",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2024-06-09",
+    "orig_start_time": "09/06/2024",
+    "std_invoice_time": "2024-06-09",
+    "orig_invoice_time": "09/06/2024",
+    "place": "India-Delhi",
+    "std_curr": "INR",
+    "orig_curr": [
+     "Delhi"
+    ],
+    "std_total": "0.00",
+    "orig_total": "4864.00",
+    "seller_name": [
+     "Mezze Mambo"
+    ],
+    "seller_address": [
+     "India-Delhi"
+    ],
+    "invoice_number": "",
+    "tax_number": "07677227326",
+    "detail": [
+     {
+      "content": "CHELOW KEBAB",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "HAR AAM KHOR",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "PALESTINIAN POUND CAKE",
+      "amount": "595.00",
+      "ifTax": false
+     },
+     {
+      "content": "TABAK MAAZ",
+      "amount": "675.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHITE WINE GARLIC PRAWNS",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "CGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "SGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "S.CHARGE@10%",
+      "amount": "406.00",
+      "ifTax": true
+     },
+     {
+      "content": "Vat on Liquor@25%",
+      "amount": "218.63",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1341",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2016-10-14\",\"orig_start_time\":\"10/14/16\",\"std_invoice_time\":\"2016-10-14\",\"orig_invoice_time\":\"10/14/16\",\"place\":\"\",\"std_curr\":\"USD\",\"orig_curr\":[],\"std_total\":\"65.66\",\"orig_total\":\"65.66\",\"seller_name\":[\"MANNED CHRIE BLICKER\"],\"seller_address\":[],\"invoice_number\":\"2690004042\",\"tax_number\":\"\",\"detail\":[{\"content\":\"BANANAS\",\"amount\":\"3.00\",\"ifTax\":false},{\"content\":\"WHOLE MILK\",\"amount\":\"1.68\",\"ifTax\":false},{\"content\":\"EV SPX DR\",\"amount\":\"3.33\",\"ifTax\":false},{\"content\":\"TAX 1\",\"amount\":\"6.66\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2016-10-14",
+    "orig_start_time": "10/14/16",
+    "std_invoice_time": "2016-10-14",
+    "orig_invoice_time": "10/14/16",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [],
+    "std_total": "65.66",
+    "orig_total": "65.66",
+    "seller_name": [
+     "MANNED CHRIE BLICKER"
+    ],
+    "seller_address": [],
+    "invoice_number": "2690004042",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "BANANAS",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHOLE MILK",
+      "amount": "1.68",
+      "ifTax": false
+     },
+     {
+      "content": "EV SPX DR",
+      "amount": "3.33",
+      "ifTax": false
+     },
+     {
+      "content": "TAX 1",
+      "amount": "6.66",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-10-14",
+    "orig_start_time": "10/14/16",
+    "std_invoice_time": "2016-10-14",
+    "orig_invoice_time": "10/14/16",
+    "place": "USA-Columbus ",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Columbus "
+    ],
+    "std_total": "65.56",
+    "orig_total": "65.56",
+    "seller_name": [],
+    "seller_address": [
+     "USA-Columbus "
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "BANANAS",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "3.06 LB @ 1.1b /0.62",
+      "amount": "1.59",
+      "ifTax": false
+     },
+     {
+      "content": "INFANT WATER",
+      "amount": "1.00",
+      "ifTax": false
+     },
+     {
+      "content": "FW KETTLE",
+      "amount": "29.92",
+      "ifTax": false
+     },
+     {
+      "content": "WHOLE MILK",
+      "amount": "1.68",
+      "ifTax": false
+     },
+     {
+      "content": "GV 3PK DR",
+      "amount": "3.33",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "4.04",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "place": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Hallucination",
+    "seller_address": "Missing",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1366",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2015-01-02\",\"orig_start_time\":\"01/22/15\",\"std_invoice_time\":\"2015-01-22\",\"orig_invoice_time\":\"01/22/15\",\"place\":\"USA-Riverside\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\",\"RIVERSIDE\"],\"std_total\":\"22.00\",\"orig_total\":\"22.00\",\"seller_name\":[\"SHELL\"],\"seller_address\":[\"USA-Riverside\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"PREPAY CA 401\",\"amount\":\"22.00\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2015-01-02",
+    "orig_start_time": "01/22/15",
+    "std_invoice_time": "2015-01-22",
+    "orig_invoice_time": "01/22/15",
+    "place": "USA-Riverside",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "RIVERSIDE"
+    ],
+    "std_total": "22.00",
+    "orig_total": "22.00",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Riverside"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PREPAY CA 401",
+      "amount": "22.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-03-22",
+    "orig_start_time": "03/22/15",
+    "std_invoice_time": "2015-03-22",
+    "orig_invoice_time": "03/22/15",
+    "place": "USA-Valley Center",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Valley Center"
+    ],
+    "std_total": "22.00",
+    "orig_total": "22.00",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Valley Center"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PREPAY CA #01",
+      "amount": "22.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1523",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2002-09-20\",\"orig_start_time\":\"09/20/07\",\"std_invoice_time\":\"2007-09-20\",\"orig_invoice_time\":\"09/20/07\",\"place\":\"USA-Kansas City\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\",\"Kansas City\"],\"std_total\":\"19.34\",\"orig_total\":\"19.34\",\"seller_name\":[\"F W WOOLWORTH\"],\"seller_address\":[\"USA-Kansas City\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"SESAME STREET R\",\"amount\":\"4.79\",\"ifTax\":false},{\"content\":\"SESAME STREET R\",\"amount\":\"4.79\",\"ifTax\":false},{\"content\":\"AW SALINE\",\"amount\":\"1.18\",\"ifTax\":false},{\"content\":\"AW DISC\",\"amount\":\"3.58\",\"ifTax\":false},{\"content\":\"SESAME STREET R\",\"amount\":\"-4.79\",\"ifTax\":false},{\"content\":\"SWEDISH RED FIS\",\"amount\":\"0.30\",\"ifTax\":false},{\"content\":\"SWEDISH RED FIS\",\"amount\":\"0.30\",\"ifTax\":false},{\"content\":\"SINGLE CANDOLE\",\"amount\":\"0.95\",\"ifTax\":false},{\"content\":\"DISCOUNT @ (CODE 1) PROMOTIONAL\",\"amount\":\"-0.29\",\"ifTax\":false},{\"content\":\"SWEET 1000 LITE SET\",\"amount\":\"4.79\",\"ifTax\":false},{\"content\":\"DISCOUNT @ (CODE 1) PROMOTIONAL\",\"amount\":\"-1.44\",\"ifTax\":false},{\"content\":\"SHOWER/SHBROZ\",\"amount\":\"1.74\",\"ifTax\":false},{\"content\":\"KW PERF TRED\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"RESE'S P.B.CUP\",\"amount\":\"0.39\",\"ifTax\":false},{\"content\":\"J HUSKEEERS 10\",\"amount\":\"0.89\",\"ifTax\":false},{\"content\":\"6.0% S TAX\",\"amount\":\"1.20\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2002-09-20",
+    "orig_start_time": "09/20/07",
+    "std_invoice_time": "2007-09-20",
+    "orig_invoice_time": "09/20/07",
+    "place": "USA-Kansas City",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Kansas City"
+    ],
+    "std_total": "19.34",
+    "orig_total": "19.34",
+    "seller_name": [
+     "F W WOOLWORTH"
+    ],
+    "seller_address": [
+     "USA-Kansas City"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "SESAME STREET R",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "SESAME STREET R",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "AW SALINE",
+      "amount": "1.18",
+      "ifTax": false
+     },
+     {
+      "content": "AW DISC",
+      "amount": "3.58",
+      "ifTax": false
+     },
+     {
+      "content": "SESAME STREET R",
+      "amount": "-4.79",
+      "ifTax": false
+     },
+     {
+      "content": "SWEDISH RED FIS",
+      "amount": "0.30",
+      "ifTax": false
+     },
+     {
+      "content": "SWEDISH RED FIS",
+      "amount": "0.30",
+      "ifTax": false
+     },
+     {
+      "content": "SINGLE CANDOLE",
+      "amount": "0.95",
+      "ifTax": false
+     },
+     {
+      "content": "DISCOUNT @ (CODE 1) PROMOTIONAL",
+      "amount": "-0.29",
+      "ifTax": false
+     },
+     {
+      "content": "SWEET 1000 LITE SET",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "DISCOUNT @ (CODE 1) PROMOTIONAL",
+      "amount": "-1.44",
+      "ifTax": false
+     },
+     {
+      "content": "SHOWER/SHBROZ",
+      "amount": "1.74",
+      "ifTax": false
+     },
+     {
+      "content": "KW PERF TRED",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "RESE'S P.B.CUP",
+      "amount": "0.39",
+      "ifTax": false
+     },
+     {
+      "content": "J HUSKEEERS 10",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "6.0% S TAX",
+      "amount": "1.20",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "1997-09-20",
+    "orig_start_time": "09/20/97",
+    "std_invoice_time": "1997-09-20",
+    "orig_invoice_time": "09/20/97",
+    "place": "United States-Kansas City",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Kansas"
+    ],
+    "std_total": "19.34",
+    "orig_total": "19.34",
+    "seller_name": [
+     "F. W. WOOLWORTH "
+    ],
+    "seller_address": [
+     "United States-Kansas City"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "40818862759 SESAME STREET R",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "40818862759 SESAME STREET R",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "09605001002 <W> SALINE",
+      "amount": "1.18",
+      "ifTax": false
+     },
+     {
+      "content": "01473367801 AD DISC",
+      "amount": "3.58",
+      "ifTax": false
+     },
+     {
+      "content": "40818862759 SESAME STREET R",
+      "amount": "-4.79",
+      "ifTax": false
+     },
+     {
+      "content": "07046245250 SWEDISH RED FIS",
+      "amount": "0.30",
+      "ifTax": false
+     },
+     {
+      "content": "07046245250 SWEDISH RED FIS",
+      "amount": "0.30",
+      "ifTax": false
+     },
+     {
+      "content": "07648784090 SINGLE CANDOLIE",
+      "amount": "0.95",
+      "ifTax": false
+     },
+     {
+      "content": "DISCOUNT # (CODE 1) PROMOTIONAL",
+      "amount": "-0.29",
+      "ifTax": false
+     },
+     {
+      "content": "76487840550 100UL LITE SET",
+      "amount": "4.79",
+      "ifTax": false
+     },
+     {
+      "content": "DISCOUNT # (CODE 1) PROMOTIONAL",
+      "amount": "-1.44",
+      "ifTax": false
+     },
+     {
+      "content": "3913200776B SHOWER/SHOZUB",
+      "amount": "1.74",
+      "ifTax": false
+     },
+     {
+      "content": "07183116720 <W> PERF THEMED",
+      "amount": "1.00",
+      "ifTax": false
+     },
+     {
+      "content": "0344400 REESE'S P.B. CUP",
+      "amount": "0.35",
+      "ifTax": false
+     },
+     {
+      "content": "04000002103 3 MUSKETEERS 10",
+      "amount": "0.89",
+      "ifTax": false
+     },
+     {
+      "content": "6.60 % TAX",
+      "amount": "1.20",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1553",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"\",\"orig_start_time\":\"\",\"std_invoice_time\":\"\",\"orig_invoice_time\":\"\",\"place\":\"USA-Seattle\",\"std_curr\":\"USD\",\"orig_curr\":[\"Seattle\"],\"std_total\":\"20.00\",\"orig_total\":\"20.00\",\"seller_name\":[\"WHOLESALE\"],\"seller_address\":[\"USA-Seattle\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"862760 PLUCK LIGHTS\",\"amount\":\"18.99\",\"ifTax\":false},{\"content\":\"TAX\",\"amount\":\"1.49\",\"ifTax\":true},{\"content\":\"TAX\",\"amount\":\"1.80\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "USA-Seattle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Seattle"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20.00",
+    "seller_name": [
+     "WHOLESALE"
+    ],
+    "seller_address": [
+     "USA-Seattle"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "862760 PLUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.49",
+      "ifTax": true
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-01-31",
+    "orig_start_time": "01/31/2017",
+    "std_invoice_time": "2017-01-31",
+    "orig_invoice_time": "01/31/2017",
+    "place": "USA-Seattle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Seattle"
+    ],
+    "std_total": "16.79",
+    "orig_total": "16.79",
+    "seller_name": [
+     "Aurora Village #106"
+    ],
+    "seller_address": [
+     "USA-Seattle"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "862760 PUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "0000158999 CPN/ 862760",
+      "amount": "-4.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_315",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"\",\"orig_start_time\":\"\",\"std_invoice_time\":\"\",\"orig_invoice_time\":\"\",\"place\":\"United Kingdom-London\",\"std_curr\":\"GBP\",\"orig_curr\":[\"London\"],\"std_total\":\"91.01\",\"orig_total\":\"91.01\",\"seller_name\":[\"華南行 WaNaHong\"],\"seller_address\":[\"United Kingdom-London\"],\"invoice_number\":\"20240718-14-140718\",\"tax_number\":\"333392901\",\"detail\":[{\"content\":\"Liu Ma Kee Preserved Bean Curd (Chili) 425G\",\"amount\":\"20.98\",\"ifTax\":true},{\"content\":\"Liu Ma Kee Nam Yu Bean Curd 255g\",\"amount\":\"17.58\",\"ifTax\":true},{\"content\":\"Liu Ma Kee Preserved Bean Curd 425G\",\"amount\":\"52.45\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "London"
+    ],
+    "std_total": "91.01",
+    "orig_total": "91.01",
+    "seller_name": [
+     "華南行 WaNaHong"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "20240718-14-140718",
+    "tax_number": "333392901",
+    "detail": [
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd (Chili) 425G",
+      "amount": "20.98",
+      "ifTax": true
+     },
+     {
+      "content": "Liu Ma Kee Nam Yu Bean Curd 255g",
+      "amount": "17.58",
+      "ifTax": true
+     },
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd 425G",
+      "amount": "52.45",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2024-07-18",
+    "orig_start_time": "20240718",
+    "std_invoice_time": "2024-07-18",
+    "orig_invoice_time": "20240718",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "London"
+    ],
+    "std_total": "91.00",
+    "orig_total": "91.00",
+    "seller_name": [
+     "WaNaHong"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "20240718-14-140718",
+    "tax_number": "333392901",
+    "detail": [
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd (Chili) 425G",
+      "amount": "20.98",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Nam Yu Bean Curd 255g",
+      "amount": "17.58",
+      "ifTax": false
+     },
+     {
+      "content": "Liu Ma Kee Preserved Bean Curd 425G",
+      "amount": "52.45",
+      "ifTax": false
+     },
+     {
+      "content": "VAT Value",
+      "amount": "0.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_417",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2015-07-08\",\"orig_start_time\":\"7-07-15\",\"std_invoice_time\":\"2015-07-08\",\"orig_invoice_time\":\"7-07-15\",\"place\":\"\",\"std_curr\":\"USD\",\"orig_curr\":[\"$\"],\"std_total\":\"22.99\",\"orig_total\":\"22.99\",\"seller_name\":[\"Turtle Wax Wash\"],\"seller_address\":[],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"ULTIMATE\",\"amount\":\"22.99\",\"ifTax\":false},{\"content\":\"Mats Option\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"@\",\"amount\":\"0.00\",\"ifTax\":false},{\"content\":\"Groupon\",\"amount\":\"-22.99\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2015-07-08",
+    "orig_start_time": "7-07-15",
+    "std_invoice_time": "2015-07-08",
+    "orig_invoice_time": "7-07-15",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "22.99",
+    "orig_total": "22.99",
+    "seller_name": [
+     "Turtle Wax Wash"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "ULTIMATE",
+      "amount": "22.99",
+      "ifTax": false
+     },
+     {
+      "content": "Mats Option",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "@",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Groupon",
+      "amount": "-22.99",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-08-07",
+    "orig_start_time": "08-07-15",
+    "std_invoice_time": "2015-08-07",
+    "orig_invoice_time": "08-07-15",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "0.00",
+    "orig_total": "0.00",
+    "seller_name": [
+     "Turtle Wax Wash"
+    ],
+    "seller_address": [],
+    "invoice_number": "4280",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "ULTIMATE",
+      "amount": "22.99",
+      "ifTax": false
+     },
+     {
+      "content": "Mats Option",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Groupon",
+      "amount": "-22.99",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "std_total": "Hallucination",
+    "orig_total": "Hallucination",
+    "invoice_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_50",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2018-08-20\",\"orig_start_time\":\"20-08-2018\",\"std_invoice_time\":\"2018-08-20\",\"orig_invoice_time\":\"20-08-2018\",\"place\":\"\",\"std_curr\":\"EUR\",\"orig_curr\":[\"EURO\"],\"std_total\":\"20.00\",\"orig_total\":\"20,00\",\"seller_name\":[\"PIZZERIA RIVA D'ARNO\"],\"seller_address\":[],\"invoice_number\":\"860080862\",\"tax_number\":\"01\",\"detail\":[{\"content\":\"SERVIZIO COPERTO\",\"amount\":\"3.00\",\"ifTax\":true},{\"content\":\"PIZZA AL GIORNO\",\"amount\":\"12.00\",\"ifTax\":true},{\"content\":\"BIRRA SPINA BIONDA MEDIA\",\"amount\":\"4.00\",\"ifTax\":true},{\"content\":\"BIRRA SPINA BIONDA PICC.\",\"amount\":\"1.00\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2018-08-20",
+    "orig_start_time": "20-08-2018",
+    "std_invoice_time": "2018-08-20",
+    "orig_invoice_time": "20-08-2018",
+    "place": "",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "EURO"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20,00",
+    "seller_name": [
+     "PIZZERIA RIVA D'ARNO"
+    ],
+    "seller_address": [],
+    "invoice_number": "860080862",
+    "tax_number": "01",
+    "detail": [
+     {
+      "content": "SERVIZIO COPERTO",
+      "amount": "3.00",
+      "ifTax": true
+     },
+     {
+      "content": "PIZZA AL GIORNO",
+      "amount": "12.00",
+      "ifTax": true
+     },
+     {
+      "content": "BIRRA SPINA BIONDA MEDIA",
+      "amount": "4.00",
+      "ifTax": true
+     },
+     {
+      "content": "BIRRA SPINA BIONDA PICC.",
+      "amount": "1.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2018-06-20",
+    "orig_start_time": "20-06-2018",
+    "std_invoice_time": "2018-06-20",
+    "orig_invoice_time": "20-06-2018",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [
+     "EURO"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20,00",
+    "seller_name": [
+     "PIZZERIA RIVA D'ARNO"
+    ],
+    "seller_address": [],
+    "invoice_number": "",
+    "tax_number": "05836630482",
+    "detail": [
+     {
+      "content": "SERVICE/PIATTI",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "PIZZA SPINACI GIORNO",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINACI BIONDA MEDIA",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "BIRRA SPINACI BIONDA PICCOLA",
+      "amount": "3.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "std_curr": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_600",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2011-11-20\",\"orig_start_time\":\"11/20/11\",\"std_invoice_time\":\"2011-11-20\",\"orig_invoice_time\":\"11/20/11\",\"place\":\"Mexico-Jalisco\",\"std_curr\":\"MXN\",\"orig_curr\":[\"$\",\"Jalisco\"],\"std_total\":\"327.96\",\"orig_total\":\"327.96\",\"seller_name\":[\"CASA LEY\"],\"seller_address\":[\"Mexico-Jalisco\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"CD DOS FANNY LU U\",\"amount\":\"58.14\",\"ifTax\":true},{\"content\":\"CD GLORIA TREVI\",\"amount\":\"83.94\",\"ifTax\":true},{\"content\":\"CD PELIGRO REIK S\",\"amount\":\"89.94\",\"ifTax\":true},{\"content\":\"CD WISIN Y YANDEL\",\"amount\":\"95.94\",\"ifTax\":true}]}",
+   "pred": {
+    "std_start_time": "2011-11-20",
+    "orig_start_time": "11/20/11",
+    "std_invoice_time": "2011-11-20",
+    "orig_invoice_time": "11/20/11",
+    "place": "Mexico-Jalisco",
+    "std_curr": "MXN",
+    "orig_curr": [
+     "$",
+     "Jalisco"
+    ],
+    "std_total": "327.96",
+    "orig_total": "327.96",
+    "seller_name": [
+     "CASA LEY"
+    ],
+    "seller_address": [
+     "Mexico-Jalisco"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "CD DOS FANNY LU U",
+      "amount": "58.14",
+      "ifTax": true
+     },
+     {
+      "content": "CD GLORIA TREVI",
+      "amount": "83.94",
+      "ifTax": true
+     },
+     {
+      "content": "CD PELIGRO REIK S",
+      "amount": "89.94",
+      "ifTax": true
+     },
+     {
+      "content": "CD WISIN Y YANDEL",
+      "amount": "95.94",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2011-11-20",
+    "orig_start_time": "11/20/11",
+    "std_invoice_time": "2011-11-20",
+    "orig_invoice_time": "11/20/11",
+    "place": "Mexico-Puerto Vallarta",
+    "std_curr": "MXN",
+    "orig_curr": [
+     "Puerto Vallarta",
+     "$"
+    ],
+    "std_total": "328.00",
+    "orig_total": "328.00",
+    "seller_name": [
+     "LEY CASA LEY, SA DE CV"
+    ],
+    "seller_address": [
+     "Mexico-Puerto Vallarta"
+    ],
+    "invoice_number": "1137288",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "CD DOS FANNY LU",
+      "amount": "58.14",
+      "ifTax": true
+     },
+     {
+      "content": "CD GLORIA TREVI",
+      "amount": "83.94",
+      "ifTax": true
+     },
+     {
+      "content": "CD PELIGRO REIK S",
+      "amount": "89.94",
+      "ifTax": true
+     },
+     {
+      "content": "CD VISIN Y YANDEL",
+      "amount": "95.94",
+      "ifTax": true
+     },
+     {
+      "content": "CAMBIO",
+      "amount": "0.05",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_635",
+   "n_wrong": 8,
+   "raw_text": "{\"std_start_time\":\"2005-08-06\",\"orig_start_time\":\"06.08.05\",\"std_invoice_time\":\"2005-08-06\",\"orig_invoice_time\":\"06.08.05\",\"place\":\"France-Villefranche de Rouergue\",\"std_curr\":\"EUR\",\"orig_curr\":[\"Villefranche de Rouergue\"],\"std_total\":\"380.00\",\"orig_total\":\"380,00\",\"seller_name\":[\"S/PREF DE VILLEFRANCHE DE ROUE\"],\"seller_address\":[\"France-Villefranche de Rouergue\"],\"invoice_number\":\"\",\"tax_number\":\"\",\"detail\":[{\"content\":\"5 CV + 10 ANS\",\"amount\":\"375.00\",\"ifTax\":false},{\"content\":\"Rendu\",\"amount\":\"5.00\",\"ifTax\":false}]}",
+   "pred": {
+    "std_start_time": "2005-08-06",
+    "orig_start_time": "06.08.05",
+    "std_invoice_time": "2005-08-06",
+    "orig_invoice_time": "06.08.05",
+    "place": "France-Villefranche de Rouergue",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "Villefranche de Rouergue"
+    ],
+    "std_total": "380.00",
+    "orig_total": "380,00",
+    "seller_name": [
+     "S/PREF DE VILLEFRANCHE DE ROUE"
+    ],
+    "seller_address": [
+     "France-Villefranche de Rouergue"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "5 CV + 10 ANS",
+      "amount": "375.00",
+      "ifTax": false
+     },
+     {
+      "content": "Rendu",
+      "amount": "5.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "1995-06-08",
+    "orig_start_time": "08.06.95",
+    "std_invoice_time": "1995-06-08",
+    "orig_invoice_time": "08.06.95",
+    "place": "France-Villefranche",
+    "std_curr": "EUR",
+    "orig_curr": [
+     "VILLEFRANCHE"
+    ],
+    "std_total": "380.00",
+    "orig_total": "380,00",
+    "seller_name": [
+     " S/PREF DE VILLEFRANCHE DE RGUÉ"
+    ],
+    "seller_address": [
+     "France-Villefranche"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "CARTE GRISE PRIMATA VOITURE 5 CV + 10 ANS",
+      "amount": "375.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "detail": "Misread"
+   }
+  }
+ ],
+ "parse_failures": [
+  {
+   "base": "1_PurchaseTicket_1112",
+   "raw_text": "{\"std_start_time\":\"2011-02-28\",\"orig_start_time\":\"2/28/2011\",\"std_invoice_time\":\"2011-02-28\",\"orig_invoice_time\":\"2/28/2011\",\"place\":\"United States-Miami\",\"std_curr\":\"USD\",\"orig_curr\":[\"MIAMI\"],\"std_total\":\"415.38\",\"orig_total\":\"415.38\",\"seller_name\":[\"La Baguette Bar & Grill\"],\"seller_address\":[\"United States-Miami\"],\"invoice_number\":\"1011267\",\"tax_number\":\"\",\"detail\":[{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.00\",\"ifTax\":false},{\"content\":\"Super Drink Lime\",\"amount\":\"55.0"
+  }
+ ]
+}

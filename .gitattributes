@@ -1,0 +1,4 @@
+# Keep LF everywhere so files copied to the Linux pod (setup_runpod.sh) run as-is
+* text=auto eol=lf
+*.png binary
+*.jpg binary

@@ -1,0 +1,2669 @@
+{
+ "examples": [
+  {
+   "base": "1_PurchaseTicket_1017",
+   "n_wrong": 11,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2024-09-06\",\n  \"orig_start_time\": \"09/06/2024 9:13 PM\",\n  \"std_invoice_time\": \"2024-09-06\",\n  \"orig_invoice_time\": \"09/06/2024 9:13 PM\",\n  \"place\": \"India-New Delhi\",\n  \"std_curr\": \"INR\",\n  \"orig_curr\": [],\n  \"std_total\": \"4864.00\",\n  \"orig_total\": \"4864.00\",\n  \"seller_name\": [\"Mezze Mambo\", \"Unit of New Gen Power Hospitality LLP\"],\n  \"seller_address\": [\n    \"2nd & 3rd Floor\",\n    \"Greater Kailash 2, New Delhi\",\n    \"South Delhi, Delhi 110048\"\n  ],\n  \"invoice_number\": \"B100002142\",\n  \"tax_number\": \"07677227326\",\n  \"detail\": [\n    {\"content\": \"CHELOW KEBAB\", \"amount\": \"1200.00\", \"ifTax\": false},\n    {\"content\": \"HAR AAM KHOR\", \"amount\": \"795.00\", \"ifTax\": false},\n    {\"content\": \"PALESTINIAN POUND CAKE\", \"amount\": \"595.00\", \"ifTax\": false},\n    {\"content\": \"TABAK MAAZ\", \"amount\": \"675.00\", \"ifTax\": false},\n    {\"content\": \"WHITE WINE GARLIC PRAWNS\", \"amount\": \"795.00\", \"ifTax\": false},\n    {\"content\": \"CGST@2.5%\", \"amount\": \"89.79\", \"ifTax\": true},\n    {\"content\": \"SGST@2.5%\", \"amount\": \"89.79\", \"ifTax\": true},\n    {\"content\": \"S.CHARGE@10%\", \"amount\": \"406.00\", \"ifTax\": true},\n    {\"content\": \"Vat on Liquor@25%\", \"amount\": \"218.63\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2024-09-06",
+    "orig_start_time": "09/06/2024 9:13 PM",
+    "std_invoice_time": "2024-09-06",
+    "orig_invoice_time": "09/06/2024 9:13 PM",
+    "place": "India-New Delhi",
+    "std_curr": "INR",
+    "orig_curr": [],
+    "std_total": "4864.00",
+    "orig_total": "4864.00",
+    "seller_name": [
+     "Mezze Mambo",
+     "Unit of New Gen Power Hospitality LLP"
+    ],
+    "seller_address": [
+     "2nd & 3rd Floor",
+     "Greater Kailash 2, New Delhi",
+     "South Delhi, Delhi 110048"
+    ],
+    "invoice_number": "B100002142",
+    "tax_number": "07677227326",
+    "detail": [
+     {
+      "content": "CHELOW KEBAB",
+      "amount": "1200.00",
+      "ifTax": false
+     },
+     {
+      "content": "HAR AAM KHOR",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "PALESTINIAN POUND CAKE",
+      "amount": "595.00",
+      "ifTax": false
+     },
+     {
+      "content": "TABAK MAAZ",
+      "amount": "675.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHITE WINE GARLIC PRAWNS",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "CGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "SGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "S.CHARGE@10%",
+      "amount": "406.00",
+      "ifTax": true
+     },
+     {
+      "content": "Vat on Liquor@25%",
+      "amount": "218.63",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2024-06-09",
+    "orig_start_time": "09/06/2024",
+    "std_invoice_time": "2024-06-09",
+    "orig_invoice_time": "09/06/2024",
+    "place": "India-Delhi",
+    "std_curr": "INR",
+    "orig_curr": [
+     "Delhi"
+    ],
+    "std_total": "0.00",
+    "orig_total": "4864.00",
+    "seller_name": [
+     "Mezze Mambo"
+    ],
+    "seller_address": [
+     "India-Delhi"
+    ],
+    "invoice_number": "",
+    "tax_number": "07677227326",
+    "detail": [
+     {
+      "content": "CHELOW KEBAB",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "HAR AAM KHOR",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "PALESTINIAN POUND CAKE",
+      "amount": "595.00",
+      "ifTax": false
+     },
+     {
+      "content": "TABAK MAAZ",
+      "amount": "675.00",
+      "ifTax": false
+     },
+     {
+      "content": "WHITE WINE GARLIC PRAWNS",
+      "amount": "795.00",
+      "ifTax": false
+     },
+     {
+      "content": "CGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "SGST@2.5%",
+      "amount": "89.79",
+      "ifTax": true
+     },
+     {
+      "content": "S.CHARGE@10%",
+      "amount": "406.00",
+      "ifTax": true
+     },
+     {
+      "content": "Vat on Liquor@25%",
+      "amount": "218.63",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Missing",
+    "std_total": "Hallucination",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1493",
+   "n_wrong": 11,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2016-08-14\",\n  \"orig_start_time\": \"8/14/2016 2:59:03 PM\",\n  \"std_invoice_time\": \"2016-08-14\",\n  \"orig_invoice_time\": \"8/14/2016 2:59:03 PM\",\n  \"place\": \"India-New Delhi\",\n  \"std_curr\": \"INR\",\n  \"orig_curr\": [\"Rs.\"],\n  \"std_total\": \"673.00\",\n  \"orig_total\": \"673.00\",\n  \"seller_name\": [\"SMART ICECREAM\"],\n  \"seller_address\": [\"Raukhau, New Delhi-16\"],\n  \"invoice_number\": \"9650726790\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Special stick Kulfi\", \"amount\": \"40\", \"ifTax\": false},\n    {\"content\": \"Dark Chocolate Singl e Scoop\", \"amount\": \"95\", \"ifTax\": false},\n    {\"content\": \"Gianni Special\", \"amount\": \"71\", \"ifTax\": false},\n    {\"content\": \"American Nut Sr\", \"amount\": \"85\", \"ifTax\": false},\n    {\"content\": \"Waffle Cone\", \"amount\": \"72\", \"ifTax\": false},\n    {\"content\": \"Almond Choco Fudge S r\", \"amount\": \"63\", \"ifTax\": false},\n    {\"content\": \"Litchi FST\", \"amount\": \"83\", \"ifTax\": false},\n    {\"content\": \"Vat @12.5%\", \"amount\": \"63.63\", \"ifTax\": true},\n    {\"content\": \"Round Off\", \"amount\": \"0.37\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2016-08-14",
+    "orig_start_time": "8/14/2016 2:59:03 PM",
+    "std_invoice_time": "2016-08-14",
+    "orig_invoice_time": "8/14/2016 2:59:03 PM",
+    "place": "India-New Delhi",
+    "std_curr": "INR",
+    "orig_curr": [
+     "Rs."
+    ],
+    "std_total": "673.00",
+    "orig_total": "673.00",
+    "seller_name": [
+     "SMART ICECREAM"
+    ],
+    "seller_address": [
+     "Raukhau, New Delhi-16"
+    ],
+    "invoice_number": "9650726790",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Special stick Kulfi",
+      "amount": "40",
+      "ifTax": false
+     },
+     {
+      "content": "Dark Chocolate Singl e Scoop",
+      "amount": "95",
+      "ifTax": false
+     },
+     {
+      "content": "Gianni Special",
+      "amount": "71",
+      "ifTax": false
+     },
+     {
+      "content": "American Nut Sr",
+      "amount": "85",
+      "ifTax": false
+     },
+     {
+      "content": "Waffle Cone",
+      "amount": "72",
+      "ifTax": false
+     },
+     {
+      "content": "Almond Choco Fudge S r",
+      "amount": "63",
+      "ifTax": false
+     },
+     {
+      "content": "Litchi FST",
+      "amount": "83",
+      "ifTax": false
+     },
+     {
+      "content": "Vat @12.5%",
+      "amount": "63.63",
+      "ifTax": true
+     },
+     {
+      "content": "Round Off",
+      "amount": "0.37",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "2016-08-14",
+    "orig_invoice_time": "8/14/2016",
+    "place": "India-New Delhi",
+    "std_curr": "INR",
+    "orig_curr": [
+     "New Delhi"
+    ],
+    "std_total": "573.00",
+    "orig_total": "573.00",
+    "seller_name": [
+     "GIANI ICECREAM"
+    ],
+    "seller_address": [
+     "India-New Delhi"
+    ],
+    "invoice_number": "9",
+    "tax_number": "07160434071",
+    "detail": [
+     {
+      "content": "Special stick Kulfi",
+      "amount": "40.00",
+      "ifTax": false
+     },
+     {
+      "content": "Dark Chocolate Single",
+      "amount": "95.00",
+      "ifTax": false
+     },
+     {
+      "content": "Giani Special",
+      "amount": "71.00",
+      "ifTax": false
+     },
+     {
+      "content": "American Nut Sr",
+      "amount": "85.00",
+      "ifTax": false
+     },
+     {
+      "content": "Waffle Cone",
+      "amount": "72.00",
+      "ifTax": false
+     },
+     {
+      "content": "Almond Choco Fudge Sr",
+      "amount": "63.00",
+      "ifTax": false
+     },
+     {
+      "content": "Litchi",
+      "amount": "83.00",
+      "ifTax": false
+     },
+     {
+      "content": "Vat @12.5%",
+      "amount": "63.63",
+      "ifTax": true
+     },
+     {
+      "content": "Round Off",
+      "amount": "0.37",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Hallucination",
+    "orig_start_time": "Hallucination",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1553",
+   "n_wrong": 10,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2017-03-20\",\n  \"orig_start_time\": \"03/20/2017\",\n  \"std_invoice_time\": \"2017-03-20\",\n  \"orig_invoice_time\": \"03/20/2017\",\n  \"place\": \"USA-Seattle\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"20.00\",\n  \"orig_total\": \"20.00\",\n  \"seller_name\": [\"Aurora Village #106\"],\n  \"seller_address\": [\"1175 North 205th St, Seattle, WA 98133\"],\n  \"invoice_number\": \"0000158999\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"862760 PUCK LIGHTS\", \"amount\": \"18.99\", \"ifTax\": false},\n    {\"content\": \"CPN/ 862760\", \"amount\": \"4.00\", \"ifTax\": false},\n    {\"content\": \"SUBTOTAL\", \"amount\": \"14.99\", \"ifTax\": false},\n    {\"content\": \"TAX\", \"amount\": \"1.80\", \"ifTax\": true},\n    {\"content\": \"TOTAL\", \"amount\": \"20.00\", \"ifTax\": false},\n    {\"content\": \"A 9.5% TAX\", \"amount\": \"1.80\", \"ifTax\": true},\n    {\"content\": \"TOTAL TAX\", \"amount\": \"1.80\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2017-03-20",
+    "orig_start_time": "03/20/2017",
+    "std_invoice_time": "2017-03-20",
+    "orig_invoice_time": "03/20/2017",
+    "place": "USA-Seattle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "20.00",
+    "orig_total": "20.00",
+    "seller_name": [
+     "Aurora Village #106"
+    ],
+    "seller_address": [
+     "1175 North 205th St, Seattle, WA 98133"
+    ],
+    "invoice_number": "0000158999",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "862760 PUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "CPN/ 862760",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "14.99",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL",
+      "amount": "20.00",
+      "ifTax": false
+     },
+     {
+      "content": "A 9.5% TAX",
+      "amount": "1.80",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL TAX",
+      "amount": "1.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2017-01-31",
+    "orig_start_time": "01/31/2017",
+    "std_invoice_time": "2017-01-31",
+    "orig_invoice_time": "01/31/2017",
+    "place": "USA-Seattle",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Seattle"
+    ],
+    "std_total": "16.79",
+    "orig_total": "16.79",
+    "seller_name": [
+     "Aurora Village #106"
+    ],
+    "seller_address": [
+     "USA-Seattle"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "862760 PUCK LIGHTS",
+      "amount": "18.99",
+      "ifTax": false
+     },
+     {
+      "content": "0000158999 CPN/ 862760",
+      "amount": "-4.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "1.80",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_804",
+   "n_wrong": 10,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2023-05-25\",\n  \"orig_start_time\": \"05/25/23\",\n  \"std_invoice_time\": \"2023-05-25\",\n  \"orig_invoice_time\": \"05/25/23\",\n  \"place\": \"USA-Las Vegas\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"29.21\",\n  \"orig_total\": \"$29.21\",\n  \"seller_name\": [\"ROSS DRESS FOR LESS\"],\n  \"seller_address\": [\"LAS VEGAS, NV\"],\n  \"invoice_number\": \"0679-05-7521-7207-2\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"400164880638 ELBN RED/BLK BUFF\", \"amount\": \"13.99\", \"ifTax\": false},\n    {\"content\": \"40016892033 AN-2HL LSR LC RCR B\", \"amount\": \"12.99\", \"ifTax\": false},\n    {\"content\": \"Subtotal\", \"amount\": \"26.98\", \"ifTax\": false},\n    {\"content\": \"Sales Tax 8.250%\", \"amount\": \"2.23\", \"ifTax\": true},\n    {\"content\": \"Total\", \"amount\": \"29.21\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2023-05-25",
+    "orig_start_time": "05/25/23",
+    "std_invoice_time": "2023-05-25",
+    "orig_invoice_time": "05/25/23",
+    "place": "USA-Las Vegas",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "29.21",
+    "orig_total": "$29.21",
+    "seller_name": [
+     "ROSS DRESS FOR LESS"
+    ],
+    "seller_address": [
+     "LAS VEGAS, NV"
+    ],
+    "invoice_number": "0679-05-7521-7207-2",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "400164880638 ELBN RED/BLK BUFF",
+      "amount": "13.99",
+      "ifTax": false
+     },
+     {
+      "content": "40016892033 AN-2HL LSR LC RCR B",
+      "amount": "12.99",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "26.98",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax 8.250%",
+      "amount": "2.23",
+      "ifTax": true
+     },
+     {
+      "content": "Total",
+      "amount": "29.21",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "United States-Las Vegas",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$,LAS VEGAS"
+    ],
+    "std_total": "29.21",
+    "orig_total": "29.21",
+    "seller_name": [
+     "ROSS"
+    ],
+    "seller_address": [
+     "United States-Las Vegas"
+    ],
+    "invoice_number": " 0679 - 05 - 7521 - 7307 - 2",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "40016488638 ELBW RED/BLK/BUFF",
+      "amount": "13.99",
+      "ifTax": false
+     },
+     {
+      "content": "400168920363 AN-2H LSR LC HCR.B",
+      "amount": "12.99",
+      "ifTax": false
+     },
+     {
+      "content": "Sales Tax 8.25%",
+      "amount": "2.23",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Hallucination",
+    "orig_start_time": "Hallucination",
+    "std_invoice_time": "Hallucination",
+    "orig_invoice_time": "Hallucination",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1091",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2016-10-05\",\n  \"orig_start_time\": \"05/10/2016\",\n  \"std_invoice_time\": \"2016-10-05\",\n  \"orig_invoice_time\": \"05/10/2016\",\n  \"place\": \"Malaysia-Teluk Intan\",\n  \"std_curr\": \"MYR\",\n  \"orig_curr\": [\"RM\"],\n  \"std_total\": \"53.20\",\n  \"orig_total\": \"53.20\",\n  \"seller_name\": [\"TAI CHONG SEAFOOD SDN BHD\"],\n  \"seller_address\": [\"75E - 75G, JALAN CHANGKAT JONG, 36000 TELUK INTAN, PERAK\"],\n  \"invoice_number\": \"CS00004071\",\n  \"tax_number\": \"01323335680\",\n  \"detail\": [\n    {\"content\": \"SR STEAMED EGG\", \"amount\": \"10.00\", \"ifTax\": false},\n    {\"content\": \"SR FISH\", \"amount\": \"24.00\", \"ifTax\": false},\n    {\"content\": \"SR VEGETABLES\", \"amount\": \"15.00\", \"ifTax\": false},\n    {\"content\": \"SR RICE\", \"amount\": \"1.20\", \"ifTax\": false},\n    {\"content\": \"SR CHINESE TEA\", \"amount\": \"3.00\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2016-10-05",
+    "orig_start_time": "05/10/2016",
+    "std_invoice_time": "2016-10-05",
+    "orig_invoice_time": "05/10/2016",
+    "place": "Malaysia-Teluk Intan",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "RM"
+    ],
+    "std_total": "53.20",
+    "orig_total": "53.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "75E - 75G, JALAN CHANGKAT JONG, 36000 TELUK INTAN, PERAK"
+    ],
+    "invoice_number": "CS00004071",
+    "tax_number": "01323335680",
+    "detail": [
+     {
+      "content": "SR STEAMED EGG",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR RICE",
+      "amount": "1.20",
+      "ifTax": false
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-03-15",
+    "orig_start_time": " 03/15/2016",
+    "std_invoice_time": "2016-03-15",
+    "orig_invoice_time": "03/15/2016",
+    "place": "Malaysia-Perak",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Perak"
+    ],
+    "std_total": "53.20",
+    "orig_total": "53.20",
+    "seller_name": [
+     "TAI CHONG SEAFOOD SDN BHD"
+    ],
+    "seller_address": [
+     "Malaysia-Perak"
+    ],
+    "invoice_number": "CS00004071",
+    "tax_number": "001323335680",
+    "detail": [
+     {
+      "content": "SR STEAMED EGG",
+      "amount": "10.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR FISH",
+      "amount": "24.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR VEGETABLES",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "SR RICE",
+      "amount": "1.20",
+      "ifTax": false
+     },
+     {
+      "content": "SR CHINESE TEA",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge",
+      "amount": "0.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1218",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2019-04-27\",\n  \"orig_start_time\": \"27 Apr'19 22:48 PM\",\n  \"std_invoice_time\": \"2019-04-27\",\n  \"orig_invoice_time\": \"27 Apr'19 22:48 PM\",\n  \"place\": \"Hong Kong-Hong Kong\",\n  \"std_curr\": \"HKD\",\n  \"orig_curr\": [\"HK$\"],\n  \"std_total\": \"1124.20\",\n  \"orig_total\": \"HK$1,124.20\",\n  \"seller_name\": [\"THE ST. REGIS\"],\n  \"seller_address\": [\"HONG KONG\", \"The Drawing Room & St. Regis Bar\"],\n  \"invoice_number\": \"1251912\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Chicken\", \"amount\": \"338.00\", \"ifTax\": false},\n    {\"content\": \"Dover Sole\", \"amount\": \"348.00\", \"ifTax\": false},\n    {\"content\": \"Sauteed Veg\", \"amount\": \"80.00\", \"ifTax\": false},\n    {\"content\": \"Willis Avenue\", \"amount\": \"128.00\", \"ifTax\": false},\n    {\"content\": \"A Tie On Lenox Ave\", \"amount\": \"128.00\", \"ifTax\": false},\n    {\"content\": \"Service Charge 10%\", \"amount\": \"HK$102.20\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2019-04-27",
+    "orig_start_time": "27 Apr'19 22:48 PM",
+    "std_invoice_time": "2019-04-27",
+    "orig_invoice_time": "27 Apr'19 22:48 PM",
+    "place": "Hong Kong-Hong Kong",
+    "std_curr": "HKD",
+    "orig_curr": [
+     "HK$"
+    ],
+    "std_total": "1124.20",
+    "orig_total": "HK$1,124.20",
+    "seller_name": [
+     "THE ST. REGIS"
+    ],
+    "seller_address": [
+     "HONG KONG",
+     "The Drawing Room & St. Regis Bar"
+    ],
+    "invoice_number": "1251912",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Chicken",
+      "amount": "338.00",
+      "ifTax": false
+     },
+     {
+      "content": "Dover Sole",
+      "amount": "348.00",
+      "ifTax": false
+     },
+     {
+      "content": "Sauteed Veg",
+      "amount": "80.00",
+      "ifTax": false
+     },
+     {
+      "content": "Willis Avenue",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "A Tie On Lenox Ave",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge 10%",
+      "amount": "HK$102.20",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2019-04-27",
+    "orig_start_time": "27 Apr'19",
+    "std_invoice_time": "2019-04-27",
+    "orig_invoice_time": "27 Apr'19",
+    "place": "China-Hong Kong",
+    "std_curr": "HKD",
+    "orig_curr": [
+     "HK$",
+     "Hong Kong"
+    ],
+    "std_total": "0.00",
+    "orig_total": "1,124.20",
+    "seller_name": [
+     "The St. Regis Hong Kong"
+    ],
+    "seller_address": [
+     "China-Hong Kong"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Chicken",
+      "amount": "338.00",
+      "ifTax": false
+     },
+     {
+      "content": "Dover Sole",
+      "amount": "348.00",
+      "ifTax": false
+     },
+     {
+      "content": "Sauteed Veg",
+      "amount": "80.00",
+      "ifTax": false
+     },
+     {
+      "content": "Willis Avenue",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "A Tie On Lenox Ave",
+      "amount": "128.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge 10%",
+      "amount": "102.20",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "std_total": "Hallucination",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_133",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2018-06-18\",\n  \"orig_start_time\": \"18-Jun-18 13:20\",\n  \"std_invoice_time\": \"2018-06-18\",\n  \"orig_invoice_time\": \"18-Jun-18 13:20\",\n  \"place\": \"UK-London\",\n  \"std_curr\": \"GBP\",\n  \"orig_curr\": [\"£\"],\n  \"std_total\": \"48.42\",\n  \"orig_total\": \"£48.42\",\n  \"seller_name\": [],\n  \"seller_address\": [\"92-94 Newman Street, London, W1T 3EZ\"],\n  \"invoice_number\": \"1322\",\n  \"tax_number\": \"255819966\",\n  \"detail\": [\n    {\"content\": \"Satay Chicken\", \"amount\": \"£7.95\", \"ifTax\": false},\n    {\"content\": \"Singapore Laksa\", \"amount\": \"£12.95\", \"ifTax\": false},\n    {\"content\": \"Char Kuey Teow\", \"amount\": \"£12.95\", \"ifTax\": false},\n    {\"content\": \"Nyonya Curry Chicken\", \"amount\": \"£11.95\", \"ifTax\": false},\n    {\"content\": \"Roti Paratha\", \"amount\": \"£3.00\", \"ifTax\": false},\n    {\"content\": \"Steamed Rice\", \"amount\": \"£3.00\", \"ifTax\": false},\n    {\"content\": \"330ml lemonade 200ml\", \"amount\": \"£1.60\", \"ifTax\": false},\n    {\"content\": \"Discount - VIP\", \"amount\": \"-£10.36\", \"ifTax\": false},\n    {\"content\": \"Discretionary Service Charge\", \"amount\": \"£5.38\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2018-06-18",
+    "orig_start_time": "18-Jun-18 13:20",
+    "std_invoice_time": "2018-06-18",
+    "orig_invoice_time": "18-Jun-18 13:20",
+    "place": "UK-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "£"
+    ],
+    "std_total": "48.42",
+    "orig_total": "£48.42",
+    "seller_name": [],
+    "seller_address": [
+     "92-94 Newman Street, London, W1T 3EZ"
+    ],
+    "invoice_number": "1322",
+    "tax_number": "255819966",
+    "detail": [
+     {
+      "content": "Satay Chicken",
+      "amount": "£7.95",
+      "ifTax": false
+     },
+     {
+      "content": "Singapore Laksa",
+      "amount": "£12.95",
+      "ifTax": false
+     },
+     {
+      "content": "Char Kuey Teow",
+      "amount": "£12.95",
+      "ifTax": false
+     },
+     {
+      "content": "Nyonya Curry Chicken",
+      "amount": "£11.95",
+      "ifTax": false
+     },
+     {
+      "content": "Roti Paratha",
+      "amount": "£3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Steamed Rice",
+      "amount": "£3.00",
+      "ifTax": false
+     },
+     {
+      "content": "330ml lemonade 200ml",
+      "amount": "£1.60",
+      "ifTax": false
+     },
+     {
+      "content": "Discount - VIP",
+      "amount": "-£10.36",
+      "ifTax": false
+     },
+     {
+      "content": "Discretionary Service Charge",
+      "amount": "£5.38",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "06-18",
+    "orig_start_time": "Jun-18",
+    "std_invoice_time": "2025-06-18",
+    "orig_invoice_time": "Jun-18",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "£",
+     "London"
+    ],
+    "std_total": "48.42",
+    "orig_total": "48.42",
+    "seller_name": [
+     "Laksamania"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "1322",
+    "tax_number": "255819966",
+    "detail": [
+     {
+      "content": "Satay Chicken",
+      "amount": "7.95",
+      "ifTax": false
+     },
+     {
+      "content": "Singapore Laksa",
+      "amount": "12.95",
+      "ifTax": false
+     },
+     {
+      "content": "Char Kuey Teow",
+      "amount": "12.95",
+      "ifTax": false
+     },
+     {
+      "content": "Nyonya Curry Chicken",
+      "amount": "11.95",
+      "ifTax": false
+     },
+     {
+      "content": "Roti Paratha",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Steamed Rice",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "330ml lemonade 200ml ",
+      "amount": "1.60",
+      "ifTax": false
+     },
+     {
+      "content": "Discount - VIP",
+      "amount": "-10.36",
+      "ifTax": false
+     },
+     {
+      "content": "Discretionary Service Charge",
+      "amount": "5.38",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_name": "Missing",
+    "seller_address": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1366",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"\",\n  \"orig_start_time\": \"\",\n  \"std_invoice_time\": \"\",\n  \"orig_invoice_time\": \"\",\n  \"place\": \"USA-Valley Center\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"22.00\",\n  \"orig_total\": \"22.00\",\n  \"seller_name\": [\"SHELL\"],\n  \"seller_address\": [\"777 HWY 395 RINCON WAY VALLEY CENTER CA 92082\"],\n  \"invoice_number\": \"571045\",\n  \"tax_number\": \"57 465 390008\",\n  \"detail\": [\n    {\"content\": \"PREPAY CA 401\", \"amount\": \"22.00\", \"ifTax\": false},\n    {\"content\": \"Subtotal\", \"amount\": \"22.00\", \"ifTax\": false},\n    {\"content\": \"Tax\", \"amount\": \"0.00\", \"ifTax\": true},\n    {\"content\": \"TOTAL\", \"amount\": \"22.00\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "",
+    "orig_start_time": "",
+    "std_invoice_time": "",
+    "orig_invoice_time": "",
+    "place": "USA-Valley Center",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "22.00",
+    "orig_total": "22.00",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "777 HWY 395 RINCON WAY VALLEY CENTER CA 92082"
+    ],
+    "invoice_number": "571045",
+    "tax_number": "57 465 390008",
+    "detail": [
+     {
+      "content": "PREPAY CA 401",
+      "amount": "22.00",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "22.00",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "TOTAL",
+      "amount": "22.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-03-22",
+    "orig_start_time": "03/22/15",
+    "std_invoice_time": "2015-03-22",
+    "orig_invoice_time": "03/22/15",
+    "place": "USA-Valley Center",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Valley Center"
+    ],
+    "std_total": "22.00",
+    "orig_total": "22.00",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Valley Center"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PREPAY CA #01",
+      "amount": "22.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Missing",
+    "orig_start_time": "Missing",
+    "std_invoice_time": "Missing",
+    "orig_invoice_time": "Missing",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_374",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2013-01-31\",\n  \"orig_start_time\": \"JAN31'13  8:01PM\",\n  \"std_invoice_time\": \"2013-01-31\",\n  \"orig_invoice_time\": \"JAN31'13  8:01PM\",\n  \"place\": \"USA-DALLAS\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"374.23\",\n  \"orig_total\": \"$374.23\",\n  \"seller_name\": [\"BOBS STEAK & CHOP HOUSE ON LAMAR\"],\n  \"seller_address\": [\"DALLAS, TX\", \"(214) 652-4800\", \"20008 Paul H\"],\n  \"invoice_number\": \"CHK 5163\",\n  \"tax_number\": \"GST 2\",\n  \"detail\": [\n    {\"content\": \"GREY GOOSE\", \"amount\": \"14.00\", \"ifTax\": false},\n    {\"content\": \"1 APANNA IL\", \"amount\": \"7.00\", \"ifTax\": false},\n    {\"content\": \"BV LATOUR D25\", \"amount\": \"21.80\", \"ifTax\": false},\n    {\"content\": \"VEAL CHOP\", \"amount\": \"53.00\", \"ifTax\": false},\n    {\"content\": \"DUCK\", \"amount\": \"30.00\", \"ifTax\": false},\n    {\"content\": \"CRAB CAKE\", \"amount\": \"15.00\", \"ifTax\": false},\n    {\"content\": \"BREAD PUDDING\", \"amount\": \"7.00\", \"ifTax\": false},\n    {\"content\": \"CHOCOLATE CAKE\", \"amount\": \"8.00\", \"ifTax\": false},\n    {\"content\": \"SGL ESPRESSO\", \"amount\": \"4.00\", \"ifTax\": false},\n    {\"content\": \"CHIVAS 12 YR\", \"amount\": \"8.00\", \"ifTax\": false},\n    {\"content\": \"SUBTOTAL\", \"amount\": \"364.00\", \"ifTax\": false},\n    {\"content\": \"TAX\", \"amount\": \"10.23\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2013-01-31",
+    "orig_start_time": "JAN31'13  8:01PM",
+    "std_invoice_time": "2013-01-31",
+    "orig_invoice_time": "JAN31'13  8:01PM",
+    "place": "USA-DALLAS",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "374.23",
+    "orig_total": "$374.23",
+    "seller_name": [
+     "BOBS STEAK & CHOP HOUSE ON LAMAR"
+    ],
+    "seller_address": [
+     "DALLAS, TX",
+     "(214) 652-4800",
+     "20008 Paul H"
+    ],
+    "invoice_number": "CHK 5163",
+    "tax_number": "GST 2",
+    "detail": [
+     {
+      "content": "GREY GOOSE",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 APANNA IL",
+      "amount": "7.00",
+      "ifTax": false
+     },
+     {
+      "content": "BV LATOUR D25",
+      "amount": "21.80",
+      "ifTax": false
+     },
+     {
+      "content": "VEAL CHOP",
+      "amount": "53.00",
+      "ifTax": false
+     },
+     {
+      "content": "DUCK",
+      "amount": "30.00",
+      "ifTax": false
+     },
+     {
+      "content": "CRAB CAKE",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "BREAD PUDDING",
+      "amount": "7.00",
+      "ifTax": false
+     },
+     {
+      "content": "CHOCOLATE CAKE",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "SGL ESPRESSO",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "CHIVAS 12 YR",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "SUBTOTAL",
+      "amount": "364.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "10.23",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2023-01-31",
+    "orig_start_time": "JAN31'13",
+    "std_invoice_time": "2023-01-31",
+    "orig_invoice_time": "JAN31'13",
+    "place": "USA-Dallas",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "DALLAS"
+    ],
+    "std_total": "374.23",
+    "orig_total": "374.23",
+    "seller_name": [
+     " BOBS STEAK & CHOP HOUSE ON LAMAR"
+    ],
+    "seller_address": [
+     "USA-Dallas"
+    ],
+    "invoice_number": "5163",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "1 GREY GOOSE",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 A PANNA 1L",
+      "amount": "7.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 BV Latour D25",
+      "amount": "218.00",
+      "ifTax": false
+     },
+     {
+      "content": "VEAL CHOP",
+      "amount": "53.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 DUCK",
+      "amount": "30.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 CRAB CAKE",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 BREAD PUDDING",
+      "amount": "7.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 CHOCOLATE CAKE",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 SGL ESPRESSO",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 CHIVAS 12 YR",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "10.23",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_62",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2015-05-21\",\n  \"orig_start_time\": \"21-05-2015\",\n  \"std_invoice_time\": \"2015-05-21\",\n  \"orig_invoice_time\": \"21-05-2015\",\n  \"place\": \"Malaysia-Kuala Lumpur\",\n  \"std_curr\": \"MYR\",\n  \"orig_curr\": [\"RM\"],\n  \"std_total\": \"19.70\",\n  \"orig_total\": \"19.70\",\n  \"seller_name\": [\"Coffea Roast Malaysia Sdn. Bhd\"],\n  \"seller_address\": [\n    \"Lot 47592, Ground Floor, No 1, Jalan 26/70A, Desa Sri Hartamas, 50480, Kuala Lumpur\"\n  ],\n  \"invoice_number\": \"SH1-6878\",\n  \"tax_number\": \"0019 1414 0000\",\n  \"detail\": [\n    {\n      \"content\": \"Opera Kenya\",\n      \"amount\": \"16.90\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Service Charge\",\n      \"amount\": \"1.69\",\n      \"ifTax\": false\n    },\n    {\n      \"content\": \"Total GST @ 6%\",\n      \"amount\": \"1.12\",\n      \"ifTax\": true\n    }\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2015-05-21",
+    "orig_start_time": "21-05-2015",
+    "std_invoice_time": "2015-05-21",
+    "orig_invoice_time": "21-05-2015",
+    "place": "Malaysia-Kuala Lumpur",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "RM"
+    ],
+    "std_total": "19.70",
+    "orig_total": "19.70",
+    "seller_name": [
+     "Coffea Roast Malaysia Sdn. Bhd"
+    ],
+    "seller_address": [
+     "Lot 47592, Ground Floor, No 1, Jalan 26/70A, Desa Sri Hartamas, 50480, Kuala Lumpur"
+    ],
+    "invoice_number": "SH1-6878",
+    "tax_number": "0019 1414 0000",
+    "detail": [
+     {
+      "content": "Opera Kenya",
+      "amount": "16.90",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge",
+      "amount": "1.69",
+      "ifTax": false
+     },
+     {
+      "content": "Total GST @ 6%",
+      "amount": "1.12",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-06-21",
+    "orig_start_time": "21/06/2015",
+    "std_invoice_time": "2015-06-21",
+    "orig_invoice_time": "21/06/2015",
+    "place": "Malaysia-Kuala Lumpur",
+    "std_curr": "MYR",
+    "orig_curr": [
+     "Kuala Lumpur"
+    ],
+    "std_total": "19.70",
+    "orig_total": "19.70",
+    "seller_name": [
+     "Coffee Roast Malaysia Sdn. Bhd."
+    ],
+    "seller_address": [
+     "Malaysia-Kuala Lumpur"
+    ],
+    "invoice_number": "SH1-8878",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Open kopi o",
+      "amount": "16.90",
+      "ifTax": false
+     },
+     {
+      "content": "Discount",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Service Charge",
+      "amount": "1.69",
+      "ifTax": false
+     },
+     {
+      "content": "Total GST @ 6%",
+      "amount": "1.12",
+      "ifTax": true
+     },
+     {
+      "content": "Rounding Value",
+      "amount": "-0.01",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "tax_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_622",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2015-02-02\",\n  \"orig_start_time\": \"02Feb'15 19:13\",\n  \"std_invoice_time\": \"2015-02-02\",\n  \"orig_invoice_time\": \"02Feb'15 19:13\",\n  \"place\": \"Tahiti-Bora Bora\",\n  \"std_curr\": \"\",\n  \"orig_curr\": [],\n  \"std_total\": \"20000.00\",\n  \"orig_total\": \"20000\",\n  \"seller_name\": [\"Bloody Mary's Restaurant & Bar\"],\n  \"seller_address\": [\"Bora Bora\", \"Tahiti\"],\n  \"invoice_number\": \"46/1\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Eau Royale 1L\", \"amount\": \"400\", \"ifTax\": false},\n    {\"content\": \"Calamari Steak\", \"amount\": \"1600\", \"ifTax\": false},\n    {\"content\": \"Sashimi\", \"amount\": \"1600\", \"ifTax\": false},\n    {\"content\": \"Broadbill Sword\", \"amount\": \"3500\", \"ifTax\": false},\n    {\"content\": \"Wahoo\", \"amount\": \"3200\", \"ifTax\": false},\n    {\"content\": \"Marlin\", \"amount\": \"3200\", \"ifTax\": false},\n    {\"content\": \"Mahi Mahi Spl\", \"amount\": \"3500\", \"ifTax\": false},\n    {\"content\": \"Lagoon Fish\", \"amount\": \"3000\", \"ifTax\": false},\n    {\"content\": \"13% VAT\", \"amount\": \"2301\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2015-02-02",
+    "orig_start_time": "02Feb'15 19:13",
+    "std_invoice_time": "2015-02-02",
+    "orig_invoice_time": "02Feb'15 19:13",
+    "place": "Tahiti-Bora Bora",
+    "std_curr": "",
+    "orig_curr": [],
+    "std_total": "20000.00",
+    "orig_total": "20000",
+    "seller_name": [
+     "Bloody Mary's Restaurant & Bar"
+    ],
+    "seller_address": [
+     "Bora Bora",
+     "Tahiti"
+    ],
+    "invoice_number": "46/1",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Eau Royale 1L",
+      "amount": "400",
+      "ifTax": false
+     },
+     {
+      "content": "Calamari Steak",
+      "amount": "1600",
+      "ifTax": false
+     },
+     {
+      "content": "Sashimi",
+      "amount": "1600",
+      "ifTax": false
+     },
+     {
+      "content": "Broadbill Sword",
+      "amount": "3500",
+      "ifTax": false
+     },
+     {
+      "content": "Wahoo",
+      "amount": "3200",
+      "ifTax": false
+     },
+     {
+      "content": "Marlin",
+      "amount": "3200",
+      "ifTax": false
+     },
+     {
+      "content": "Mahi Mahi Spl",
+      "amount": "3500",
+      "ifTax": false
+     },
+     {
+      "content": "Lagoon Fish",
+      "amount": "3000",
+      "ifTax": false
+     },
+     {
+      "content": "13% VAT",
+      "amount": "2301",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-02-02",
+    "orig_start_time": "02Feb/15",
+    "std_invoice_time": "2015-02-02",
+    "orig_invoice_time": "02Feb/15",
+    "place": "French Polynesia-Tahiti",
+    "std_curr": "XPF",
+    "orig_curr": [
+     "Tahiti"
+    ],
+    "std_total": "0.00",
+    "orig_total": "20000",
+    "seller_name": [
+     "Bloody Mary's Restaurant & Bar"
+    ],
+    "seller_address": [
+     "French Polynesia-Tahiti"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Eau Royale 1L",
+      "amount": "400.00",
+      "ifTax": true
+     },
+     {
+      "content": "Calamari Steak",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Sashimi",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Broadbill Sword",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Wahoo",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Marlin",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Mahi Mahi Sp",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "Lagoon Fish",
+      "amount": "0.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "std_curr": "Missing",
+    "orig_curr": "Missing",
+    "std_total": "Hallucination",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_720",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2018-04-07\",\n  \"orig_start_time\": \"04/07/2018\",\n  \"std_invoice_time\": \"2018-04-07\",\n  \"orig_invoice_time\": \"04/07/2018\",\n  \"place\": \"USA-Boston\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [],\n  \"std_total\": \"70.97\",\n  \"orig_total\": \"70.97\",\n  \"seller_name\": [\"Harvard Gardens\"],\n  \"seller_address\": [\"320 Cambridge St. Boston, Ma 02114\"],\n  \"invoice_number\": \"20072\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Aperol\", \"amount\": \"8.00\", \"ifTax\": false},\n    {\"content\": \"Bombay Sapphire\", \"amount\": \"9.50\", \"ifTax\": false},\n    {\"content\": \"Classic Nachos\", \"amount\": \"12.00\", \"ifTax\": false},\n    {\"content\": \"All American Cheeseburger\", \"amount\": \"15.00\", \"ifTax\": false},\n    {\"content\": \"Green Beans glut free bun\", \"amount\": \"2.00\", \"ifTax\": false},\n    {\"content\": \"All American Cheeseburger French Fries BACON FRIES\", \"amount\": \"16.00\", \"ifTax\": false},\n    {\"content\": \"Hot Tea\", \"amount\": \"3.00\", \"ifTax\": false},\n    {\"content\": \"Subtotal\", \"amount\": \"68.00\", \"ifTax\": false},\n    {\"content\": \"Tax\", \"amount\": \"2.97\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2018-04-07",
+    "orig_start_time": "04/07/2018",
+    "std_invoice_time": "2018-04-07",
+    "orig_invoice_time": "04/07/2018",
+    "place": "USA-Boston",
+    "std_curr": "USD",
+    "orig_curr": [],
+    "std_total": "70.97",
+    "orig_total": "70.97",
+    "seller_name": [
+     "Harvard Gardens"
+    ],
+    "seller_address": [
+     "320 Cambridge St. Boston, Ma 02114"
+    ],
+    "invoice_number": "20072",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Aperol",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "Bombay Sapphire",
+      "amount": "9.50",
+      "ifTax": false
+     },
+     {
+      "content": "Classic Nachos",
+      "amount": "12.00",
+      "ifTax": false
+     },
+     {
+      "content": "All American Cheeseburger",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "Green Beans glut free bun",
+      "amount": "2.00",
+      "ifTax": false
+     },
+     {
+      "content": "All American Cheeseburger French Fries BACON FRIES",
+      "amount": "16.00",
+      "ifTax": false
+     },
+     {
+      "content": "Hot Tea",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "68.00",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "2.97",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2018-07-10",
+    "orig_start_time": "07/10/2018",
+    "std_invoice_time": "2018-07-10",
+    "orig_invoice_time": "07/10/2018",
+    "place": "United States-Boston",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Boston"
+    ],
+    "std_total": "70.97",
+    "orig_total": "70.97",
+    "seller_name": [
+     "Harvard Gardens"
+    ],
+    "seller_address": [
+     "United States-Boston"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Aperol",
+      "amount": "8.00",
+      "ifTax": false
+     },
+     {
+      "content": "Bombay Sapphire",
+      "amount": "9.50",
+      "ifTax": false
+     },
+     {
+      "content": "Classic Nachos",
+      "amount": "12.00",
+      "ifTax": false
+     },
+     {
+      "content": "All American Cheeseburger",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "glut free bun",
+      "amount": "2.00",
+      "ifTax": false
+     },
+     {
+      "content": "All American Cheeseburger",
+      "amount": "16.00",
+      "ifTax": false
+     },
+     {
+      "content": "FRIES",
+      "amount": "2.50",
+      "ifTax": false
+     },
+     {
+      "content": "Hot Tea",
+      "amount": "3.00",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "2.97",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Missing",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_964",
+   "n_wrong": 9,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2014-05-09\",\n  \"orig_start_time\": \"05/09/2014\",\n  \"std_invoice_time\": \"2014-05-09\",\n  \"orig_invoice_time\": \"05/09/2014\",\n  \"place\": \"USA-San Francisco\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"244.58\",\n  \"orig_total\": \"244.58\",\n  \"seller_name\": [\"Morton's The Steakhouse\"],\n  \"seller_address\": [\"400 Post Street, San Francisco, CA 94102\"],\n  \"invoice_number\": \"20041\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Vivarra Water\", \"amount\": \"9.75\", \"ifTax\": false},\n    {\"content\": \"French Fries\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"Steamed Broccoli\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"Grey Goose Martini\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"Double Cut Pork Chops\", \"amount\": \"32.00\", \"ifTax\": false},\n    {\"content\": \"16 Oz Layer Cake Beast\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"6 Oz FP Manteau\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"Oysters Rockefeller\", \"amount\": \"19.50\", \"ifTax\": false},\n    {\"content\": \"16 Oz Crab Cakes Entree\", \"amount\": \"38.00\", \"ifTax\": false},\n    {\"content\": \"G1 Lg Ponzi\", \"amount\": \"14.00\", \"ifTax\": false},\n    {\"content\": \"G1 SB J Lohr Carol Vineya\", \"amount\": \"13.00\", \"ifTax\": false},\n    {\"content\": \"JM Red Rocks (2 @11.75)\", \"amount\": \"23.50\", \"ifTax\": false},\n    {\"content\": \"Subtotal\", \"amount\": \"217.00\", \"ifTax\": false},\n    {\"content\": \"Surcharge\", \"amount\": \"8.68\", \"ifTax\": false},\n    {\"content\": \"Tax\", \"amount\": \"18.90\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2014-05-09",
+    "orig_start_time": "05/09/2014",
+    "std_invoice_time": "2014-05-09",
+    "orig_invoice_time": "05/09/2014",
+    "place": "USA-San Francisco",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "244.58",
+    "orig_total": "244.58",
+    "seller_name": [
+     "Morton's The Steakhouse"
+    ],
+    "seller_address": [
+     "400 Post Street, San Francisco, CA 94102"
+    ],
+    "invoice_number": "20041",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Vivarra Water",
+      "amount": "9.75",
+      "ifTax": false
+     },
+     {
+      "content": "French Fries",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Steamed Broccoli",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Grey Goose Martini",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Double Cut Pork Chops",
+      "amount": "32.00",
+      "ifTax": false
+     },
+     {
+      "content": "16 Oz Layer Cake Beast",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "6 Oz FP Manteau",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Oysters Rockefeller",
+      "amount": "19.50",
+      "ifTax": false
+     },
+     {
+      "content": "16 Oz Crab Cakes Entree",
+      "amount": "38.00",
+      "ifTax": false
+     },
+     {
+      "content": "G1 Lg Ponzi",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "G1 SB J Lohr Carol Vineya",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "JM Red Rocks (2 @11.75)",
+      "amount": "23.50",
+      "ifTax": false
+     },
+     {
+      "content": "Subtotal",
+      "amount": "217.00",
+      "ifTax": false
+     },
+     {
+      "content": "Surcharge",
+      "amount": "8.68",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "18.90",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2014-09-09",
+    "orig_start_time": "09/09/2014",
+    "std_invoice_time": "2014-09-09",
+    "orig_invoice_time": "09/09/2014",
+    "place": "United States-San Francisco",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "San Francisco"
+    ],
+    "std_total": "244.58",
+    "orig_total": "244.58",
+    "seller_name": [
+     "Morton's The Steakhouse"
+    ],
+    "seller_address": [
+     "United States-San Francisco"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Viveau Water",
+      "amount": "9.75",
+      "ifTax": false
+     },
+     {
+      "content": "French Fries",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Steamed Zucchini",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Drip Goose Martini",
+      "amount": "15.25",
+      "ifTax": false
+     },
+     {
+      "content": "Double Out Pork Chops",
+      "amount": "32.00",
+      "ifTax": false
+     },
+     {
+      "content": "GI CS Layer Cake Beast",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "GI SPR Montesa",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "Oysters Rockefeller",
+      "amount": "19.50",
+      "ifTax": false
+     },
+     {
+      "content": "Jumbo Crab Cakes Entree",
+      "amount": "38.00",
+      "ifTax": false
+     },
+     {
+      "content": "GI FG Poni",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "GI SB J Ladr Carol Vineyard",
+      "amount": "13.00",
+      "ifTax": false
+     },
+     {
+      "content": "JW Red Rocket (2 #11.75)",
+      "amount": "23.50",
+      "ifTax": false
+     },
+     {
+      "content": "Surcharge",
+      "amount": "8.68",
+      "ifTax": false
+     },
+     {
+      "content": "Tax",
+      "amount": "18.90",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1148",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2008-03-23\",\n  \"orig_start_time\": \"23Mar'08 19:46\",\n  \"std_invoice_time\": \"2008-03-23\",\n  \"orig_invoice_time\": \"23Mar'08 19:46\",\n  \"place\": \"Zimbabwe-Jungle Junction\",\n  \"std_curr\": \"ZWL\",\n  \"orig_curr\": [\"Z$\"],\n  \"std_total\": \"1243255000.00\",\n  \"orig_total\": \"Z$1,243,255,000.00\",\n  \"seller_name\": [\"The Victoria Falls Hotel\"],\n  \"seller_address\": [\"Jungle Junction\"],\n  \"invoice_number\": \"Chk 5816\",\n  \"tax_number\": \"VAT# 10010273\",\n  \"detail\": [\n    {\"content\": \"2 Castle\", \"amount\": \"Z$95,6 Z$191,270,000.00\", \"ifTax\": false},\n    {\"content\": \"1 Min Water\", \"amount\": \"Z$95,635,000.00\", \"ifTax\": false},\n    {\"content\": \"1 Dinner B\", \"amount\": \"Z$956,350,000.00\", \"ifTax\": false},\n    {\"content\": \"Food\", \"amount\": \"Z$956,350,000.00\", \"ifTax\": false},\n    {\"content\": \"Beverage\", \"amount\": \"Z$286,905,000.00\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2008-03-23",
+    "orig_start_time": "23Mar'08 19:46",
+    "std_invoice_time": "2008-03-23",
+    "orig_invoice_time": "23Mar'08 19:46",
+    "place": "Zimbabwe-Jungle Junction",
+    "std_curr": "ZWL",
+    "orig_curr": [
+     "Z$"
+    ],
+    "std_total": "1243255000.00",
+    "orig_total": "Z$1,243,255,000.00",
+    "seller_name": [
+     "The Victoria Falls Hotel"
+    ],
+    "seller_address": [
+     "Jungle Junction"
+    ],
+    "invoice_number": "Chk 5816",
+    "tax_number": "VAT# 10010273",
+    "detail": [
+     {
+      "content": "2 Castle",
+      "amount": "Z$95,6 Z$191,270,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Min Water",
+      "amount": "Z$95,635,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Dinner B",
+      "amount": "Z$956,350,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "Food",
+      "amount": "Z$956,350,000.00",
+      "ifTax": false
+     },
+     {
+      "content": "Beverage",
+      "amount": "Z$286,905,000.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2008-03-23",
+    "orig_start_time": "23Mar'08",
+    "std_invoice_time": "2008-03-23",
+    "orig_invoice_time": "23Mar'08",
+    "place": "Zimbabwe",
+    "std_curr": "ZWL",
+    "orig_curr": [
+     "Z$"
+    ],
+    "std_total": "0.00",
+    "orig_total": "1,243,255,000.00",
+    "seller_name": [
+     "The Victoria Falls Hotel"
+    ],
+    "seller_address": [
+     "Zimbabwe"
+    ],
+    "invoice_number": "",
+    "tax_number": "10010273",
+    "detail": [
+     {
+      "content": "2 Castle",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Min Water",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "1 Dinner B",
+      "amount": "0.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "std_total": "Hallucination",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "tax_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1166",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2015-12-04\",\n  \"orig_start_time\": \"04-Dec-2015 23:52:51\",\n  \"std_invoice_time\": \"2015-12-04\",\n  \"orig_invoice_time\": \"04-Dec-2015 23:52:51\",\n  \"place\": \"\",\n  \"std_curr\": \"\",\n  \"orig_curr\": [],\n  \"std_total\": \"12.82\",\n  \"orig_total\": \"12.82\",\n  \"seller_name\": [],\n  \"seller_address\": [],\n  \"invoice_number\": \"433675\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"Combo #2 SuperSonic -Med\", \"amount\": \"7.49\", \"ifTax\": false},\n    {\"content\": \"SS Chzbgr Works\", \"amount\": \"\", \"ifTax\": false},\n    {\"content\": \"French Fries Med\", \"amount\": \"\", \"ifTax\": false},\n    {\"content\": \"SHAKE Strawb Cheesecake M edium\", \"amount\": \"1.80\", \"ifTax\": false},\n    {\"content\": \"Onion Rings Med\", \"amount\": \"2.69\", \"ifTax\": false},\n    {\"content\": \"Tax%\", \"amount\": \"0.84\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2015-12-04",
+    "orig_start_time": "04-Dec-2015 23:52:51",
+    "std_invoice_time": "2015-12-04",
+    "orig_invoice_time": "04-Dec-2015 23:52:51",
+    "place": "",
+    "std_curr": "",
+    "orig_curr": [],
+    "std_total": "12.82",
+    "orig_total": "12.82",
+    "seller_name": [],
+    "seller_address": [],
+    "invoice_number": "433675",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Combo #2 SuperSonic -Med",
+      "amount": "7.49",
+      "ifTax": false
+     },
+     {
+      "content": "SS Chzbgr Works",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "French Fries Med",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "SHAKE Strawb Cheesecake M edium",
+      "amount": "1.80",
+      "ifTax": false
+     },
+     {
+      "content": "Onion Rings Med",
+      "amount": "2.69",
+      "ifTax": false
+     },
+     {
+      "content": "Tax%",
+      "amount": "0.84",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-12-04",
+    "orig_start_time": "04-Dec-2015",
+    "std_invoice_time": "2015-12-04",
+    "orig_invoice_time": "04-Dec-2015 ",
+    "place": "USD",
+    "std_curr": "USD",
+    "orig_curr": [
+     "Sonic"
+    ],
+    "std_total": "12.82",
+    "orig_total": "12.82",
+    "seller_name": [
+     "SONIC"
+    ],
+    "seller_address": [
+     "USD"
+    ],
+    "invoice_number": "433675",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Combo #2 SuperSonic -Med",
+      "amount": "7.49",
+      "ifTax": false
+     },
+     {
+      "content": "SHAKE Strawb Cheesecake M",
+      "amount": "1.80",
+      "ifTax": false
+     },
+     {
+      "content": "Onion Rings Med",
+      "amount": "2.69",
+      "ifTax": false
+     },
+     {
+      "content": "Tax%",
+      "amount": "0.84",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Missing",
+    "std_curr": "Missing",
+    "orig_curr": "Missing",
+    "seller_name": "Missing",
+    "seller_address": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1239",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2024-11-10\",\n  \"orig_start_time\": \"2024-11-10 14:03:17\",\n  \"std_invoice_time\": \"2024-11-10\",\n  \"orig_invoice_time\": \"2024-11-10 14:03:17\",\n  \"place\": \"India-Connaught Place\",\n  \"std_curr\": \"INR\",\n  \"orig_curr\": [],\n  \"std_total\": \"1158.00\",\n  \"orig_total\": \"1158\",\n  \"seller_name\": [\"Dosa Coffee\", \"A unit of Dalgreen Foods Pvt Ltd\"],\n  \"seller_address\": [\"20-90, Ground Floor, P-Block\", \"Connaught Place\"],\n  \"invoice_number\": \"T6--467\",\n  \"tax_number\": \"07AACCV3123G1ZN\",\n  \"detail\": [\n    {\"content\": \"Thindi Podi Idli\", \"amount\": \"185.00\", \"ifTax\": false},\n    {\"content\": \"Medu Vada Plate (2 pc)\", \"amount\": \"175.00\", \"ifTax\": false},\n    {\"content\": \"Malkapodi Masala Dosa\", \"amount\": \"230.00\", \"ifTax\": false},\n    {\"content\": \"Buttermilk\", \"amount\": \"60.00\", \"ifTax\": false},\n    {\"content\": \"Mysore Ghee Roast Dosa\", \"amount\": \"225.00\", \"ifTax\": false},\n    {\"content\": \"Coke Zero Can (330 ml)\", \"amount\": \"133.32\", \"ifTax\": false},\n    {\"content\": \"Filter Coffee\", \"amount\": \"95.00\", \"ifTax\": false},\n    {\"content\": \"Regular Sambar\", \"amount\": \"0.00\", \"ifTax\": false},\n    {\"content\": \"GST@5%\", \"amount\": \"55.16\", \"ifTax\": true},\n    {\"content\": \"CGST @2.5\", \"amount\": \"27.58\", \"ifTax\": true},\n    {\"content\": \"SGST @2.5\", \"amount\": \"27.58\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2024-11-10",
+    "orig_start_time": "2024-11-10 14:03:17",
+    "std_invoice_time": "2024-11-10",
+    "orig_invoice_time": "2024-11-10 14:03:17",
+    "place": "India-Connaught Place",
+    "std_curr": "INR",
+    "orig_curr": [],
+    "std_total": "1158.00",
+    "orig_total": "1158",
+    "seller_name": [
+     "Dosa Coffee",
+     "A unit of Dalgreen Foods Pvt Ltd"
+    ],
+    "seller_address": [
+     "20-90, Ground Floor, P-Block",
+     "Connaught Place"
+    ],
+    "invoice_number": "T6--467",
+    "tax_number": "07AACCV3123G1ZN",
+    "detail": [
+     {
+      "content": "Thindi Podi Idli",
+      "amount": "185.00",
+      "ifTax": false
+     },
+     {
+      "content": "Medu Vada Plate (2 pc)",
+      "amount": "175.00",
+      "ifTax": false
+     },
+     {
+      "content": "Malkapodi Masala Dosa",
+      "amount": "230.00",
+      "ifTax": false
+     },
+     {
+      "content": "Buttermilk",
+      "amount": "60.00",
+      "ifTax": false
+     },
+     {
+      "content": "Mysore Ghee Roast Dosa",
+      "amount": "225.00",
+      "ifTax": false
+     },
+     {
+      "content": "Coke Zero Can (330 ml)",
+      "amount": "133.32",
+      "ifTax": false
+     },
+     {
+      "content": "Filter Coffee",
+      "amount": "95.00",
+      "ifTax": false
+     },
+     {
+      "content": "Regular Sambar",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "GST@5%",
+      "amount": "55.16",
+      "ifTax": true
+     },
+     {
+      "content": "CGST @2.5",
+      "amount": "27.58",
+      "ifTax": true
+     },
+     {
+      "content": "SGST @2.5",
+      "amount": "27.58",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2024-11-10",
+    "orig_start_time": "2024-11-10",
+    "std_invoice_time": "2024-11-10",
+    "orig_invoice_time": "2024-11-10 ",
+    "place": "India",
+    "std_curr": "INR",
+    "orig_curr": [
+     "CGST",
+     "SGST",
+     "Connaught Place"
+    ],
+    "std_total": "0.00",
+    "orig_total": "1158",
+    "seller_name": [
+     "Dosa Coffee"
+    ],
+    "seller_address": [
+     "India"
+    ],
+    "invoice_number": "T6--467",
+    "tax_number": "07AACCV3123G1ZN",
+    "detail": [
+     {
+      "content": "Idli",
+      "amount": "185.00",
+      "ifTax": false
+     },
+     {
+      "content": "Medu Vada Plate (2 pc)",
+      "amount": "175.00",
+      "ifTax": false
+     },
+     {
+      "content": "Malkapodi",
+      "amount": "230.00",
+      "ifTax": false
+     },
+     {
+      "content": "Buttermilk",
+      "amount": "60.00",
+      "ifTax": false
+     },
+     {
+      "content": "Roast Dosa",
+      "amount": "225.00",
+      "ifTax": false
+     },
+     {
+      "content": "Coke Zero Can (330 ml)",
+      "amount": "133.32",
+      "ifTax": false
+     },
+     {
+      "content": "Filter Coffee",
+      "amount": "95.00",
+      "ifTax": false
+     },
+     {
+      "content": "Regular Sambar",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "GST@5%",
+      "amount": "55.16",
+      "ifTax": true
+     },
+     {
+      "content": "Round Off",
+      "amount": "-0.48",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Missing",
+    "std_total": "Hallucination",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1240",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2013-01-17\",\n  \"orig_start_time\": \"1/17/13 9:33AM\",\n  \"std_invoice_time\": \"2013-01-17\",\n  \"orig_invoice_time\": \"1/17/13 9:33AM\",\n  \"place\": \"US-Salisbury\",\n  \"std_curr\": \"USD\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"68.02\",\n  \"orig_total\": \"$ 68.02\",\n  \"seller_name\": [\"Shell\"],\n  \"seller_address\": [\"900 Snow Hill Road\", \"Salisbury MD 21804\"],\n  \"invoice_number\": \"522672\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"PUMP PRODUCT 3/6\", \"amount\": \"\", \"ifTax\": false},\n    {\"content\": \"01 UNLD\", \"amount\": \"$3.299\", \"ifTax\": false},\n    {\"content\": \"GALLONS\", \"amount\": \"20.819\", \"ifTax\": false},\n    {\"content\": \"FUEL TOTAL\", \"amount\": \"$ 68.02\", \"ifTax\": false},\n    {\"content\": \"TOTAL SALE\", \"amount\": \"$ 68.02\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2013-01-17",
+    "orig_start_time": "1/17/13 9:33AM",
+    "std_invoice_time": "2013-01-17",
+    "orig_invoice_time": "1/17/13 9:33AM",
+    "place": "US-Salisbury",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "68.02",
+    "orig_total": "$ 68.02",
+    "seller_name": [
+     "Shell"
+    ],
+    "seller_address": [
+     "900 Snow Hill Road",
+     "Salisbury MD 21804"
+    ],
+    "invoice_number": "522672",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "PUMP PRODUCT 3/6",
+      "amount": "",
+      "ifTax": false
+     },
+     {
+      "content": "01 UNLD",
+      "amount": "$3.299",
+      "ifTax": false
+     },
+     {
+      "content": "GALLONS",
+      "amount": "20.819",
+      "ifTax": false
+     },
+     {
+      "content": "FUEL TOTAL",
+      "amount": "$ 68.02",
+      "ifTax": false
+     },
+     {
+      "content": "TOTAL SALE",
+      "amount": "$ 68.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2019-01-17",
+    "orig_start_time": "01/17/19",
+    "std_invoice_time": "2019-01-17",
+    "orig_invoice_time": "01/17/19",
+    "place": "USA-Salisbury",
+    "std_curr": "USD",
+    "orig_curr": [
+     "$",
+     "Salisbury"
+    ],
+    "std_total": "68.02",
+    "orig_total": "68.02",
+    "seller_name": [
+     "SHELL"
+    ],
+    "seller_address": [
+     "USA-Salisbury"
+    ],
+    "invoice_number": "522872",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "20.819 GALLONS PUMP PRODUCT",
+      "amount": "68.02",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "std_start_time": "Misread",
+    "orig_start_time": "Misread",
+    "std_invoice_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "orig_curr": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Misread",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1255",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2016-10-06\",\n  \"orig_start_time\": \"10/06/16 10:17am\",\n  \"std_invoice_time\": \"2016-10-06\",\n  \"orig_invoice_time\": \"10/06/16 10:17am\",\n  \"place\": \"\",\n  \"std_curr\": \"\",\n  \"orig_curr\": [],\n  \"std_total\": \"25.03\",\n  \"orig_total\": \"25.03\",\n  \"seller_name\": [\"Smith's\"],\n  \"seller_address\": [\"3850 E. FLAMINGO RD.\"],\n  \"invoice_number\": \"\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"0.84 lb @ 5.99 /lb GOUR SLD BAR\", \"amount\": \"5.03\", \"ifTax\": false},\n    {\"content\": \"TAX\", \"amount\": \"0.00\", \"ifTax\": true},\n    {\"content\": \"BALANCE\", \"amount\": \"5.03\", \"ifTax\": false},\n    {\"content\": \"US DEBIT Purchase\", \"amount\": \"25.03\", \"ifTax\": false},\n    {\"content\": \"PURCHASE\", \"amount\": \"5.03\", \"ifTax\": false},\n    {\"content\": \"CASHBACK\", \"amount\": \"20.00\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2016-10-06",
+    "orig_start_time": "10/06/16 10:17am",
+    "std_invoice_time": "2016-10-06",
+    "orig_invoice_time": "10/06/16 10:17am",
+    "place": "",
+    "std_curr": "",
+    "orig_curr": [],
+    "std_total": "25.03",
+    "orig_total": "25.03",
+    "seller_name": [
+     "Smith's"
+    ],
+    "seller_address": [
+     "3850 E. FLAMINGO RD."
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "0.84 lb @ 5.99 /lb GOUR SLD BAR",
+      "amount": "5.03",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "BALANCE",
+      "amount": "5.03",
+      "ifTax": false
+     },
+     {
+      "content": "US DEBIT Purchase",
+      "amount": "25.03",
+      "ifTax": false
+     },
+     {
+      "content": "PURCHASE",
+      "amount": "5.03",
+      "ifTax": false
+     },
+     {
+      "content": "CASHBACK",
+      "amount": "20.00",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2016-10-06",
+    "orig_start_time": "10/06/16",
+    "std_invoice_time": "2016-10-06",
+    "orig_invoice_time": "10/06/16",
+    "place": "",
+    "std_curr": "USD",
+    "orig_curr": [],
+    "std_total": "5.03",
+    "orig_total": "5.03",
+    "seller_name": [
+     "Smith's"
+    ],
+    "seller_address": [],
+    "invoice_number": "000000",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "Purchase",
+      "amount": "5.03",
+      "ifTax": false
+     },
+     {
+      "content": "TAX",
+      "amount": "0.00",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "std_curr": "Missing",
+    "std_total": "Misread",
+    "orig_total": "Misread",
+    "seller_address": "Hallucination",
+    "invoice_number": "Missing",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1258",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2015-05-01\",\n  \"orig_start_time\": \"01May'15 11:38\",\n  \"std_invoice_time\": \"2015-05-01\",\n  \"orig_invoice_time\": \"01May'15 11:38\",\n  \"place\": \"UK-London\",\n  \"std_curr\": \"GBP\",\n  \"orig_curr\": [],\n  \"std_total\": \"95.45\",\n  \"orig_total\": \"95.45\",\n  \"seller_name\": [\"Chiltern FIREHOUSE\"],\n  \"seller_address\": [\"1 Chiltern Street\", \"London, W1U 7PA\"],\n  \"invoice_number\": \"1925\",\n  \"tax_number\": \"\",\n  \"detail\": [\n    {\"content\": \"GL Ruinart NV\", \"amount\": \"15.00\", \"ifTax\": false},\n    {\"content\": \"English Bfast\", \"amount\": \"4.00\", \"ifTax\": false},\n    {\"content\": \"Americano\", \"amount\": \"4.00\", \"ifTax\": false},\n    {\"content\": \"French Toast\", \"amount\": \"14.00\", \"ifTax\": false},\n    {\"content\": \"Fresh Fruit\", \"amount\": \"9.00\", \"ifTax\": false},\n    {\"content\": \"Beef Hash\", \"amount\": \"16.00\", \"ifTax\": false},\n    {\"content\": \"Seasonal Smoothi\", \"amount\": \"7.00\", \"ifTax\": false},\n    {\"content\": \"Hot Water\", \"amount\": \"0.00\", \"ifTax\": false},\n    {\"content\": \"Toast\", \"amount\": \"0.00\", \"ifTax\": false},\n    {\"content\": \"Fire Mans Drill\", \"amount\": \"14.00\", \"ifTax\": false},\n    {\"content\": \"VAT TTL\", \"amount\": \"13.83\", \"ifTax\": true},\n    {\"content\": \"Food\", \"amount\": \"47.00\", \"ifTax\": false},\n    {\"content\": \"Beverage\", \"amount\": \"21.00\", \"ifTax\": false},\n    {\"content\": \"Wine\", \"amount\": \"15.00\", \"ifTax\": false},\n    {\"content\": \"15% Service\", \"amount\": \"12.45\", \"ifTax\": false}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2015-05-01",
+    "orig_start_time": "01May'15 11:38",
+    "std_invoice_time": "2015-05-01",
+    "orig_invoice_time": "01May'15 11:38",
+    "place": "UK-London",
+    "std_curr": "GBP",
+    "orig_curr": [],
+    "std_total": "95.45",
+    "orig_total": "95.45",
+    "seller_name": [
+     "Chiltern FIREHOUSE"
+    ],
+    "seller_address": [
+     "1 Chiltern Street",
+     "London, W1U 7PA"
+    ],
+    "invoice_number": "1925",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "GL Ruinart NV",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "English Bfast",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "Americano",
+      "amount": "4.00",
+      "ifTax": false
+     },
+     {
+      "content": "French Toast",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "Fresh Fruit",
+      "amount": "9.00",
+      "ifTax": false
+     },
+     {
+      "content": "Beef Hash",
+      "amount": "16.00",
+      "ifTax": false
+     },
+     {
+      "content": "Seasonal Smoothi",
+      "amount": "7.00",
+      "ifTax": false
+     },
+     {
+      "content": "Hot Water",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Toast",
+      "amount": "0.00",
+      "ifTax": false
+     },
+     {
+      "content": "Fire Mans Drill",
+      "amount": "14.00",
+      "ifTax": false
+     },
+     {
+      "content": "VAT TTL",
+      "amount": "13.83",
+      "ifTax": true
+     },
+     {
+      "content": "Food",
+      "amount": "47.00",
+      "ifTax": false
+     },
+     {
+      "content": "Beverage",
+      "amount": "21.00",
+      "ifTax": false
+     },
+     {
+      "content": "Wine",
+      "amount": "15.00",
+      "ifTax": false
+     },
+     {
+      "content": "15% Service",
+      "amount": "12.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2015-05-01",
+    "orig_start_time": "01May'15",
+    "std_invoice_time": "2015-05-01",
+    "orig_invoice_time": "01May'15",
+    "place": "United Kingdom-London",
+    "std_curr": "GBP",
+    "orig_curr": [
+     "London"
+    ],
+    "std_total": "95.45",
+    "orig_total": "95.45",
+    "seller_name": [
+     "Firehouse Restaurant"
+    ],
+    "seller_address": [
+     "United Kingdom-London"
+    ],
+    "invoice_number": "",
+    "tax_number": "",
+    "detail": [
+     {
+      "content": "1 GL Ruinart NV",
+      "amount": "15.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 English Bfast",
+      "amount": "4.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Americano",
+      "amount": "4.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 French Toast",
+      "amount": "14.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Fresh Fruit",
+      "amount": "9.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Beef Hash",
+      "amount": "16.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Seasonal Smoothi",
+      "amount": "7.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Hot Water",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Toast",
+      "amount": "0.00",
+      "ifTax": true
+     },
+     {
+      "content": "1 Fire Mans Drill",
+      "amount": "14.00",
+      "ifTax": true
+     },
+     {
+      "content": "15% Service",
+      "amount": "12.45",
+      "ifTax": false
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "place": "Misread",
+    "orig_curr": "Missing",
+    "seller_name": "Misread",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  },
+  {
+   "base": "1_PurchaseTicket_1264",
+   "n_wrong": 8,
+   "raw_text": "```json\n{\n  \"std_start_time\": \"2013-04-01\",\n  \"orig_start_time\": \"01 Apr 13 12:31:55 PM\",\n  \"std_invoice_time\": \"2013-04-01\",\n  \"orig_invoice_time\": \"01 Apr 13 12:31:55 PM\",\n  \"place\": \"Singapore-Singapore\",\n  \"std_curr\": \"\",\n  \"orig_curr\": [\"$\"],\n  \"std_total\": \"43.61\",\n  \"orig_total\": \"43.61\",\n  \"seller_name\": [\"Changi City Point Mall\"],\n  \"seller_address\": [\"No.5 Changi Business Park Central Singapore 486038\"],\n  \"invoice_number\": \"CHK1012\",\n  \"tax_number\": \"20-0502699-H\",\n  \"detail\": [\n    {\"content\": \"Lime Juice\", \"amount\": \"4.20\", \"ifTax\": false},\n    {\"content\": \"$5.95 Country Mushroom\", \"amount\": \"5.95\", \"ifTax\": false},\n    {\"content\": \"Fish & Chips\", \"amount\": \"11.95\", \"ifTax\": false},\n    {\"content\": \"Cherry Snapper & Chips\", \"amount\": \"14.95\", \"ifTax\": false},\n    {\"content\": \"10% Svr Chg\", \"amount\": \"3.71\", \"ifTax\": true},\n    {\"content\": \"7% GST\", \"amount\": \"2.85\", \"ifTax\": true}\n  ]\n}\n```",
+   "pred": {
+    "std_start_time": "2013-04-01",
+    "orig_start_time": "01 Apr 13 12:31:55 PM",
+    "std_invoice_time": "2013-04-01",
+    "orig_invoice_time": "01 Apr 13 12:31:55 PM",
+    "place": "Singapore-Singapore",
+    "std_curr": "",
+    "orig_curr": [
+     "$"
+    ],
+    "std_total": "43.61",
+    "orig_total": "43.61",
+    "seller_name": [
+     "Changi City Point Mall"
+    ],
+    "seller_address": [
+     "No.5 Changi Business Park Central Singapore 486038"
+    ],
+    "invoice_number": "CHK1012",
+    "tax_number": "20-0502699-H",
+    "detail": [
+     {
+      "content": "Lime Juice",
+      "amount": "4.20",
+      "ifTax": false
+     },
+     {
+      "content": "$5.95 Country Mushroom",
+      "amount": "5.95",
+      "ifTax": false
+     },
+     {
+      "content": "Fish & Chips",
+      "amount": "11.95",
+      "ifTax": false
+     },
+     {
+      "content": "Cherry Snapper & Chips",
+      "amount": "14.95",
+      "ifTax": false
+     },
+     {
+      "content": "10% Svr Chg",
+      "amount": "3.71",
+      "ifTax": true
+     },
+     {
+      "content": "7% GST",
+      "amount": "2.85",
+      "ifTax": true
+     }
+    ]
+   },
+   "target": {
+    "std_start_time": "2013-04-01",
+    "orig_start_time": "01 Apr 13",
+    "std_invoice_time": "2013-04-01",
+    "orig_invoice_time": "01 Apr 13 ",
+    "place": "Singapore-Singapore city",
+    "std_curr": "SGD",
+    "orig_curr": [
+     "Singapore",
+     "$"
+    ],
+    "std_total": "43.61",
+    "orig_total": "43.61",
+    "seller_name": [],
+    "seller_address": [
+     "Singapore-Singapore city"
+    ],
+    "invoice_number": "",
+    "tax_number": "20-0502699-H",
+    "detail": [
+     {
+      "content": "Lime Juice",
+      "amount": "4.20",
+      "ifTax": false
+     },
+     {
+      "content": "$5.95 Country Mushroom",
+      "amount": "5.95",
+      "ifTax": false
+     },
+     {
+      "content": "Fish & Chips",
+      "amount": "11.95",
+      "ifTax": false
+     },
+     {
+      "content": "Cherry Snapper & Chips",
+      "amount": "14.95",
+      "ifTax": false
+     },
+     {
+      "content": "10% Serv Chg",
+      "amount": "3.71",
+      "ifTax": false
+     },
+     {
+      "content": "7% GST",
+      "amount": "2.85",
+      "ifTax": true
+     }
+    ]
+   },
+   "errors": {
+    "orig_start_time": "Misread",
+    "orig_invoice_time": "Misread",
+    "std_curr": "Missing",
+    "orig_curr": "Misread",
+    "seller_name": "Hallucination",
+    "seller_address": "Misread",
+    "invoice_number": "Hallucination",
+    "detail": "Misread"
+   }
+  }
+ ],
+ "parse_failures": []
+}
